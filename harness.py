@@ -92,11 +92,23 @@ def verify_candidate_at_loop(stripped_source, loop_index, candidate, timeout=60)
         os.remove(tmp_path)
 
 
-def houdini_at_loop(stripped_source, loop_index, candidates, timeout=60):
-    """Houdini filter operating on a REAL program at a specific loop.
-    Same isolation logic as houdini(), but injects via inject_at_loop."""
-    uniq = list(dict.fromkeys(c.strip() for c in candidates if c.strip()))
+def houdini_at_loop(stripped_source, loop_index, candidates, timeout=30):
+    """Two-phase Houdini on a real program at a loop.
 
+    Phase 1: inject the entire pool at once. If it verifies, done (1 call).
+    Phase 2: otherwise, isolation-filter to the sound subset, then verify that.
+    """
+    uniq = list(dict.fromkeys(c.strip() for c in candidates if c.strip()))
+    if not uniq:
+        return {"invariant": [], "verified": False, "raw": "", "survivors": []}
+
+    # Phase 1: whole pool at once. Cheap short-circuit when the pool is sound.
+    whole = verify_candidate_at_loop(stripped_source, loop_index, uniq, timeout)
+    if whole["verified"]:
+        return {"invariant": uniq, "verified": True,
+                "raw": whole["raw"], "survivors": uniq}
+
+    # Phase 2: isolation sweep to find sound clauses.
     def survives(clause):
         v = verify_candidate_at_loop(stripped_source, loop_index, clause, timeout)
         raw = v["raw"]
@@ -107,7 +119,6 @@ def houdini_at_loop(stripped_source, loop_index, candidates, timeout=60):
         return not inv_failed
 
     survivors = [c for c in uniq if survives(c)]
-
     if survivors:
         v = verify_candidate_at_loop(stripped_source, loop_index, survivors, timeout)
         return {"invariant": survivors, "verified": v["verified"],
