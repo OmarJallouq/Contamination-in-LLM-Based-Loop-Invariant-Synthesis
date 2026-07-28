@@ -6,7 +6,7 @@ linear template pool, filter with Houdini, record whether it verifies. This is
 the number every other method is measured against.
 """
 import os, json, time
-from templates import generate_templates
+from templates import generate_all_templates
 from harness import houdini_at_loop
 
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -30,7 +30,7 @@ def run():
         stripped = open(stripped_path, encoding="utf-8", errors="replace").read()
 
         try:
-            pool = generate_templates(stripped)
+            pool = generate_all_templates(stripped, 0)
             result = houdini_at_loop(stripped, 0, pool, timeout=30)
             (solved if result["verified"] else failed).append(gt_path)
         except Exception as e:
