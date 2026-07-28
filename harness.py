@@ -2,6 +2,7 @@ import subprocess
 import subprocess
 import tempfile
 import os
+from injector import inject_at_loop
 
 def run_dafny(filepath, timeout=60):
     """Run `dafny verify` on a file, return the raw result."""
@@ -68,6 +69,50 @@ def clause_survives(stripped_path, clause, timeout=60):
     )
     return not invariant_failed
 
+def verify_candidate_at_loop(stripped_source, loop_index, candidate, timeout=60):
+    """Inject a candidate (one or more clauses) at a given loop in a REAL program
+    (no marker), then verify. `candidate` may be a string or list of clauses."""
+    if isinstance(candidate, str):
+        clauses = [c for c in candidate.splitlines() if c.strip()]
+    else:
+        clauses = list(candidate)
+
+    filled, status = inject_at_loop(stripped_source, loop_index, clauses)
+    if status != "ok":
+        return {"verified": False, "outcome": f"inject_{status}", "raw": ""}
+
+    folder = os.path.abspath(".")
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".dfy",
+                                     dir=folder, delete=False) as tmp:
+        tmp.write(filled)
+        tmp_path = tmp.name
+    try:
+        return verify(tmp_path, timeout=timeout)
+    finally:
+        os.remove(tmp_path)
+
+
+def houdini_at_loop(stripped_source, loop_index, candidates, timeout=60):
+    """Houdini filter operating on a REAL program at a specific loop.
+    Same isolation logic as houdini(), but injects via inject_at_loop."""
+    uniq = list(dict.fromkeys(c.strip() for c in candidates if c.strip()))
+
+    def survives(clause):
+        v = verify_candidate_at_loop(stripped_source, loop_index, clause, timeout)
+        raw = v["raw"]
+        inv_failed = "loop invariant" in raw and (
+            "could not be proved to be maintained" in raw
+            or "could not be proved on entry" in raw
+        )
+        return not inv_failed
+
+    survivors = [c for c in uniq if survives(c)]
+
+    if survivors:
+        v = verify_candidate_at_loop(stripped_source, loop_index, survivors, timeout)
+        return {"invariant": survivors, "verified": v["verified"],
+                "raw": v["raw"], "survivors": survivors}
+    return {"invariant": [], "verified": False, "raw": "", "survivors": []}
 
 def houdini(stripped_path, candidates, timeout=60):
     """
