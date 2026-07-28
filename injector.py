@@ -7,10 +7,10 @@ injects candidate clauses at a chosen loop, supporting multi-loop programs.
 """
 import re
 
-# Matches a line whose first non-space token is `while`. Captures the leading
-# indentation so injected clauses line up nicely (cosmetic, but aids debugging).
-WHILE_RE = re.compile(r"^(\s*)while\b")
-
+# Matches a line whose first non-space token is `while` or `for`.
+# Both take invariants in the same position (after the header, before `{`),
+# so injection placement is identical; we tag loop type separately for analysis.
+LOOP_RE = re.compile(r"^(\s*)(while|for)\b")
 
 def find_loops(source):
     """Return a list of loop sites: (line_index, indentation) for each `while`.
@@ -19,9 +19,9 @@ def find_loops(source):
     """
     loops = []
     for i, line in enumerate(source.splitlines()):
-        m = WHILE_RE.match(line)
+        m = LOOP_RE.match(line)
         if m:
-            loops.append({"line": i, "indent": m.group(1)})
+            loops.append({"line": i, "indent": m.group(1), "kind": m.group(2)})
     return loops
 
 
@@ -88,3 +88,37 @@ def inject_all_loops(source, clauses):
 
     status = "ok" if skipped == 0 else f"skipped_{skipped}_same_line"
     return "\n".join(lines) + "\n", status
+
+
+# A clause ends when the next line starts a new clause keyword OR opens the
+# loop body with `{`. The brace is matched separately since `\b` doesn't apply
+# after a non-word character like `{`.
+_CLAUSE_BOUNDARY = re.compile(r"^\s*(invariant\b|decreases\b|modifies\b|ensures\b|\{)")
+
+def extract_invariants(source):
+    """Extract complete invariant clauses, joining multi-line ones.
+
+    A clause starts at an `invariant` keyword and runs until the next clause
+    keyword or the loop body `{`. Returns a list of clause strings with the
+    leading `invariant` keyword stripped.
+    """
+    lines = source.splitlines()
+    clauses = []
+    i = 0
+    while i < len(lines):
+        m = re.match(r"^\s*invariant\s+(.*)$", lines[i])
+        if not m:
+            i += 1
+            continue
+        # Start a clause with the text after `invariant`.
+        parts = [m.group(1).rstrip()]
+        j = i + 1
+        # Absorb continuation lines until we hit the next boundary.
+        while j < len(lines) and not _CLAUSE_BOUNDARY.match(lines[j]):
+            stripped = lines[j].strip()
+            if stripped:                       # skip blank lines
+                parts.append(stripped)
+            j += 1
+        clauses.append(" ".join(parts))
+        i = j
+    return clauses

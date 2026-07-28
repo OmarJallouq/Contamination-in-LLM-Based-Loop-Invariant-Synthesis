@@ -10,7 +10,9 @@ import subprocess
 import json
 
 REPO_URL = "https://github.com/sun-wendy/DafnyBench.git"
-REPO_DIR = os.path.expanduser("~/Developer/thesis/DafnyBench")
+# Derive paths from THIS script's location, so moving the project never breaks them.
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+REPO_DIR = os.path.join(PROJECT_ROOT, "DafnyBench")
 
 def ensure_repo():
     """Clone DafnyBench if we don't have it yet."""
@@ -88,7 +90,7 @@ def main():
     print(f"       of which multi-loop:  {len(multi_loop)}")
 
     # Save the candidate corpus manifest for later steps.
-    manifest = os.path.expanduser("~/Developer/thesis/corpus_manifest.json")
+    manifest = os.path.join(PROJECT_ROOT, "corpus_manifest.json")
     with open(manifest, "w") as f:
         json.dump(with_loop_and_inv, f, indent=2)
     print(f"\nWrote manifest of {len(with_loop_and_inv)} programs to {manifest}")
