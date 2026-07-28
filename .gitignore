@@ -1,0 +1,15 @@
+# The DafnyBench clone — external data, re-clonable, not our work
+DafnyBench/
+
+# Generated artifacts
+corpus_manifest.json
+*.pyc
+__pycache__/
+
+# Temp files from verification runs
+tmp*.dfy
+*.tmp
+
+# Editor noise
+.DS_Store
+.vscode/
