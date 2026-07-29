@@ -1,0 +1,2816 @@
+{
+  "model": "deepseek/deepseek-v4-flash",
+  "results": {
+    "solved": [
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_477.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/t1_MF_tmp_tmpi_sqie4j_exemplos_introducao_ex4.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Exercise3_Increment_Array.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_113.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Metodos_Formais_tmp_tmpql2hwcsh_Invariantes_fatorial2.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_728.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_310.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_reverse.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/DafnyPrograms_tmp_tmp74_f9k_c_invertarray.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_460.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_69.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Generated_Code_LinearSearch.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny-experiences_tmp_tmp150sm9qy_dafny_started_tutorial_dafny_tutorial_array.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_8.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Software-Verification_tmp_tmpv4ueky2d_Counting Bits_counting_bits.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/laboratory_tmp_tmps8ws6mu2_dafny-tutorial_exercise12.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny-Exercises_tmp_tmpjm75muf__Session6Exercises_ExerciseCountMin.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_BinarySearch.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Metodos_Formais_tmp_tmpbez22nnn_Aula_4_ex1.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_273.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Metodos_Formais_tmp_tmpbez22nnn_Aula_4_ex3.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_38.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/SENG2011_tmp_tmpgk5jq85q_exam_ex3.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_267.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_longest_prefix.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/DafnyProjects_tmp_tmp2acw_s4s_findMax.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_95.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_array_copy.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Workshop_tmp_tmp0cu11bdq_Lecture_Answers_triangle_number.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/MIEIC_mfes_tmp_tmpq3ho7nve_exams_appeal_20_p4.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_472.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/703FinalProject_tmp_tmpr_10rn4z_gaussian.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_307.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_261.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_28.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/M2_tmp_tmp2laaavvl_Software Verification_Exercices_Exo9-Carre.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/metodosFormais_tmp_tmp4q2kmya4_T1-MetodosFormais_examples_ex1.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_match.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_array_concat.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_min_array.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_399.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Metodos_Formais_tmp_tmpql2hwcsh_Arrays_explicacao.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_249.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/SENG2011_tmp_tmpgk5jq85q_flex_ex1.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_414.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/DafnyProjects_tmp_tmp2acw_s4s_longestPrefix.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_cal_sum.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Generated_Code_ComputePower.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_quotient.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_error_data_completion_11.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Software-Verification_tmp_tmpv4ueky2d_Remove Element_remove_element.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseSeparate.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny-Exercises_tmp_tmpjm75muf__Session4Exercises_ExercisefirstZero.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/630-dafny_tmp_tmpz2kokaiq_Solution.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/MFES_2021_tmp_tmpuljn8zd9_FCUL_Exercises_8_sum.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_775.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-exercise_tmp_tmpouftptir_firstE.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_629.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Exercise6_Binary_Search.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_RotateRight.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_all_digits.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_tmp_tmpv_d3qi10_3_cumsum.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_412.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny_misc_tmp_tmpg4vzlnm1_rosetta_code_fibonacci_sequence.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-exercise_tmp_tmpouftptir_countNeg.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_error_data_completion_07.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_binary_search.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/metodosFormais_tmp_tmp4q2kmya4_T1-MetodosFormais_examples_somatoriov2.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_remove_front.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_759.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_18.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/MFS_tmp_tmpmmnu354t_Testes anteriores_T2_ex5_2020_2.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_567.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_linear_search1.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_array_product.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Generated_Code_rand.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_565.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/SENG2011_tmp_tmpgk5jq85q_flex_ex5.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_161.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_809.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-workout_tmp_tmp0abkw6f8_starter_ex09.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_array_append.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_integer_square_root.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_linear_search2.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_743.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_623.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-exercise_tmp_tmpouftptir_prac4_ex2.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_436.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Metodos_Formais_tmp_tmpql2hwcsh_Invariantes_fibonacci.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_230.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Prog-Fun-Solutions_tmp_tmp7_gmnz5f_extra_pow.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_769.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_557.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_145.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-workout_tmp_tmp0abkw6f8_starter_ex12.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_808.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_804.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_741.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_Cubes.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_max_array.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_793.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Metodos_Formais_tmp_tmpbez22nnn_Aula_2_ex1.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_618.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_426.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Workshop_tmp_tmp0cu11bdq_Workshop_Answers_Question6.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Metodos_Formais_tmp_tmpbez22nnn_Aula_2_ex2.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_424.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Metodos_Formais_tmp_tmpql2hwcsh_Arrays_somatorioArray.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_578.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/TFG_tmp_tmpbvsao41w_Algoritmos Dafny_div_ent_it.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_803.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_790.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/laboratory_tmp_tmps8ws6mu2_dafny-tutorial_exercise9.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_find.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_2.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_cal_ans.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_41.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_770.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/MIEIC_mfes_tmp_tmpq3ho7nve_exams_mt2_19_p4.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Prog-Fun-Solutions_tmp_tmp7_gmnz5f_extra_sum.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/MIEIC_mfes_tmp_tmpq3ho7nve_exams_mt2_19_p5.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_3.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Software-Verification_tmp_tmpv4ueky2d_Best Time to Buy and Sell Stock_best_time_to_buy_and_sell_stock.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/t1_MF_tmp_tmpi_sqie4j_exemplos_colecoes_arrays_ex4.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/M2_tmp_tmp2laaavvl_Software Verification_Exercices_Exo7-ComputeSum.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-duck_tmp_tmplawbgxjo_p2.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_62.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_array_sum.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/M2_tmp_tmp2laaavvl_Software Verification_Exercices_Exo4-CountAndReturn.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p6.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_755.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/t1_MF_tmp_tmpi_sqie4j_exemplos_colecoes_arrays_ex5.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_454.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_simpleMultiplication.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_251.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_732.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_demo.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_445.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/se2011_tmp_tmp71eb82zt_ass1_ex4.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_447.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_SumArray.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Generated_Code_Mult.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_70.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Generated_Code_Minimum.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Software-Verification_tmp_tmpv4ueky2d_Valid Palindrome_valid_panlindrome.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_ComputePower.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Metodos_Formais_tmp_tmpql2hwcsh_Invariantes_potencia.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/FormalMethods_tmp_tmpvda2r3_o_dafny_Invariants_ex2.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-exercise_tmp_tmpouftptir_maxArray.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_37.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/DafnyProjects_tmp_tmp2acw_s4s_partitionOddEven.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny_tmp_tmp49a6ihvk_m4.dfy"
+    ],
+    "failed": [
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-language-server_tmp_tmpkir0kenl_Test_allocated1_dafny0_fun-with-slices.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_set_to_seq.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_474.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny_examples_tmp_tmp8qotd4ez_leetcode_0070-climbing-stairs.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Compilation.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny-Exercises_tmp_tmpjm75muf__Session4Exercises_ExerciseContained.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/CVS-handout1_tmp_tmptm52no3k_2.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_replace.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_603.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/SENG2011_tmp_tmpgk5jq85q_flex_ex2.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/MFES_2021_tmp_tmpuljn8zd9_Exams_Special_Exam_03_2020_4_CatalanNumbers.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_599.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny_misc_tmp_tmpg4vzlnm1_rosetta_code_factorial.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_SegmentSum.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Software-Verification_tmp_tmpv4ueky2d_Contains Duplicate_contains_duplicate.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_605.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_a3_search_findPositionOfIndex.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_week8_CheckSumCalculator.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-exercise_tmp_tmpouftptir_prac1_ex2.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/t1_MF_tmp_tmpi_sqie4j_exemplos_colecoes_sequences_ex3.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_canyon_search.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_554.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_DoubleArray.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_rotate.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_624.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_555.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_126.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p5.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_457.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_Cube.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_290.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_double_array_elements.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-language-server_tmp_tmpkir0kenl_Test_tutorial_maximum.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/FormalMethods_tmp_tmpvda2r3_o_dafny_Invariants_ex1.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_is_palindrome.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_lc-remove-element.dfy"
+    ],
+    "no_candidates": [],
+    "error": []
+  },
+  "details": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_477.dfy": {
+      "candidates": [
+        "|s'| == i",
+        "forall j :: 0 <= j < i ==> (if IsUpperCase(s[j]) then IsUpperLowerPair(s[j], s'[j]) else s'[j] == s[j])"
+      ],
+      "survivors": [
+        "|s'| == i",
+        "forall j :: 0 <= j < i ==> (if IsUpperCase(s[j]) then IsUpperLowerPair(s[j], s'[j]) else s'[j] == s[j])"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/t1_MF_tmp_tmpi_sqie4j_exemplos_introducao_ex4.dfy": {
+      "candidates": [
+        "0 <= i <= n",
+        "r == Fat(i)",
+        "r == Fat(i) && i <= n",
+        "r >= 1",
+        "r == Fat(i) && i >= 0",
+        "i <= n",
+        "r == Fat(i) && i <= n && i >= 0"
+      ],
+      "survivors": [
+        "0 <= i <= n",
+        "r == Fat(i)",
+        "r == Fat(i) && i <= n",
+        "r >= 1",
+        "r == Fat(i) && i >= 0",
+        "i <= n",
+        "r == Fat(i) && i <= n && i >= 0"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Exercise3_Increment_Array.dfy": {
+      "candidates": [
+        "0 <= j <= a.Length",
+        "forall i :: 0 <= i < j ==> a[i] == old(a[i]) + 1",
+        "forall i :: j <= i < a.Length ==> a[i] == old(a[i])"
+      ],
+      "survivors": [
+        "0 <= j <= a.Length",
+        "forall i :: 0 <= i < j ==> a[i] == old(a[i]) + 1",
+        "forall i :: j <= i < a.Length ==> a[i] == old(a[i])"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-language-server_tmp_tmpkir0kenl_Test_allocated1_dafny0_fun-with-slices.dfy": {
+      "candidates": [
+        "a[..] == old(a[..index]) + s[..i - index] + old(a[i..])",
+        "i >= index",
+        "i <= index + |s|",
+        "a.Length == old(a.Length)",
+        "index == old(index)",
+        "s == old(s)"
+      ],
+      "survivors": [
+        "a[..] == old(a[..index]) + s[..i - index] + old(a[i..])",
+        "i >= index",
+        "i <= index + |s|",
+        "a.Length == old(a.Length)",
+        "index == old(index)",
+        "s == old(s)"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_113.dfy": {
+      "candidates": [
+        "0 <= i <= |s|",
+        "result ==> (forall j :: 0 <= j < i ==> IsDigit(s[j]))",
+        "!result ==> (exists j :: 0 <= j < i && !IsDigit(s[j]))"
+      ],
+      "survivors": [
+        "0 <= i <= |s|",
+        "result ==> (forall j :: 0 <= j < i ==> IsDigit(s[j]))",
+        "!result ==> (exists j :: 0 <= j < i && !IsDigit(s[j]))"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_set_to_seq.dfy": {
+      "candidates": [
+        "multiset(s) == multiset(xs) + multiset(left)",
+        "multiset(left) + multiset(xs) == multiset(s)",
+        "left + multiset(xs) as multiset<T> == multiset(s)"
+      ],
+      "survivors": [
+        "multiset(s) == multiset(xs) + multiset(left)",
+        "multiset(left) + multiset(xs) == multiset(s)",
+        "left + multiset(xs) as multiset<T> == multiset(s)"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Metodos_Formais_tmp_tmpql2hwcsh_Invariantes_fatorial2.dfy": {
+      "candidates": [
+        "i <= n + 1",
+        "f == Fat(i-1)",
+        "1 <= i <= n+1",
+        "f == Fat(i-1) && i <= n+1"
+      ],
+      "survivors": [
+        "i <= n + 1",
+        "f == Fat(i-1)",
+        "1 <= i <= n+1",
+        "f == Fat(i-1) && i <= n+1"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_728.dfy": {
+      "candidates": [
+        "0 <= i <= |a|",
+        "|result| == i",
+        "forall j :: 0 <= j < i ==> result[j] == a[j] + b[j]"
+      ],
+      "survivors": [
+        "0 <= i <= |a|",
+        "|result| == i",
+        "forall j :: 0 <= j < i ==> result[j] == a[j] + b[j]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_310.dfy": {
+      "candidates": [
+        "0 <= i <= |s|",
+        "a.Length == |s|",
+        "forall j :: 0 <= j < i ==> a[j] == s[j]"
+      ],
+      "survivors": [
+        "0 <= i <= |s|",
+        "a.Length == |s|",
+        "forall j :: 0 <= j < i ==> a[j] == s[j]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_reverse.dfy": {
+      "candidates": [
+        "0 <= i <= a.Length / 2",
+        "forall j :: 0 <= j < i ==> a[j] == old(a[a.Length-1-j]) && a[a.Length-1-j] == old(a[j])",
+        "forall j :: i <= j < a.Length - i ==> a[j] == old(a[j])"
+      ],
+      "survivors": [
+        "0 <= i <= a.Length / 2",
+        "forall j :: 0 <= j < i ==> a[j] == old(a[a.Length-1-j]) && a[a.Length-1-j] == old(a[j])",
+        "forall j :: i <= j < a.Length - i ==> a[j] == old(a[j])"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/DafnyPrograms_tmp_tmp74_f9k_c_invertarray.dfy": {
+      "candidates": [
+        "0 <= index <= a.Length / 2",
+        "forall i | 0 <= i < index :: a[i] == old(a[a.Length-1-i]) && a[a.Length-1-i] == old(a[i])",
+        "forall i | index <= i <= a.Length-1-index :: a[i] == old(a[i])"
+      ],
+      "survivors": [
+        "0 <= index <= a.Length / 2",
+        "forall i | 0 <= i < index :: a[i] == old(a[a.Length-1-i]) && a[a.Length-1-i] == old(a[i])",
+        "forall i | index <= i <= a.Length-1-index :: a[i] == old(a[i])"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_460.dfy": {
+      "candidates": [
+        "0 <= i <= |lst|",
+        "|result| == i",
+        "forall j :: 0 <= j < i ==> result[j] == lst[j][0]"
+      ],
+      "survivors": [
+        "0 <= i <= |lst|",
+        "|result| == i",
+        "forall j :: 0 <= j < i ==> result[j] == lst[j][0]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_69.dfy": {
+      "candidates": [
+        "0 <= i <= |list|",
+        "result ==> (exists j :: 0 <= j < i && sub == list[j])",
+        "!result ==> (forall j :: 0 <= j < i ==> sub != list[j])"
+      ],
+      "survivors": [
+        "0 <= i <= |list|",
+        "result ==> (exists j :: 0 <= j < i && sub == list[j])",
+        "!result ==> (forall j :: 0 <= j < i ==> sub != list[j])"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_474.dfy": {
+      "candidates": [
+        "forall j :: 0 <= j < i ==> (s[j] == oldChar ==> s'[j] == newChar) && (s[j] != oldChar ==> s'[j] == s[j])",
+        "|s'| == i",
+        "forall j :: 0 <= j < i ==> s'[j] == (if s[j] == oldChar then newChar else s[j])"
+      ],
+      "survivors": [
+        "|s'| == i"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Generated_Code_LinearSearch.dfy": {
+      "candidates": [
+        "0 <= n <= a.Length",
+        "forall i :: 0 <= i < n ==> !P(a[i])",
+        "n <= a.Length",
+        "0 <= n"
+      ],
+      "survivors": [
+        "0 <= n <= a.Length",
+        "forall i :: 0 <= i < n ==> !P(a[i])",
+        "n <= a.Length",
+        "0 <= n"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny-experiences_tmp_tmp150sm9qy_dafny_started_tutorial_dafny_tutorial_array.dfy": {
+      "candidates": [
+        "0 <= index <= a.Length",
+        "0 <= i < a.Length",
+        "forall k :: 0 <= k < index ==> a[k] <= a[i]"
+      ],
+      "survivors": [
+        "0 <= index <= a.Length",
+        "0 <= i < a.Length",
+        "forall k :: 0 <= k < index ==> a[k] <= a[i]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_8.dfy": {
+      "candidates": [
+        "0 <= i <= a.Length",
+        "squared.Length == a.Length",
+        "forall j :: 0 <= j < i ==> squared[j] == a[j] * a[j]"
+      ],
+      "survivors": [
+        "0 <= i <= a.Length",
+        "squared.Length == a.Length",
+        "forall j :: 0 <= j < i ==> squared[j] == a[j] * a[j]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Software-Verification_tmp_tmpv4ueky2d_Counting Bits_counting_bits.dfy": {
+      "candidates": [
+        "0 <= i <= n + 1",
+        "forall j :: 1 <= j < i ==> result[j] == result[j / 2] + j % 2",
+        "result[0] == 0",
+        "result.Length == n + 1",
+        "i >= 1"
+      ],
+      "survivors": [
+        "0 <= i <= n + 1",
+        "forall j :: 1 <= j < i ==> result[j] == result[j / 2] + j % 2",
+        "result[0] == 0",
+        "result.Length == n + 1",
+        "i >= 1"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/laboratory_tmp_tmps8ws6mu2_dafny-tutorial_exercise12.dfy": {
+      "candidates": [
+        "0 <= j < a.Length",
+        "0 <= i <= a.Length",
+        "forall k :: 0 <= k < i ==> a[k] <= max",
+        "max == a[j]",
+        "j < i"
+      ],
+      "survivors": [
+        "0 <= j < a.Length",
+        "0 <= i <= a.Length",
+        "forall k :: 0 <= k < i ==> a[k] <= max",
+        "max == a[j]",
+        "j < i"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny-Exercises_tmp_tmpjm75muf__Session6Exercises_ExerciseCountMin.dfy": {
+      "candidates": [
+        "1 <= i <= v.Length",
+        "0 <= i <= v.Length",
+        "mini == min(v, i)",
+        "c == countMin(v, mini, i)",
+        "forall k :: 0 <= k < i ==> mini <= v[k]",
+        "forall k :: 0 <= k < i && v[k] == mini ==> c == countMin(v, mini, i)"
+      ],
+      "survivors": [
+        "1 <= i <= v.Length",
+        "0 <= i <= v.Length",
+        "mini == min(v, i)",
+        "c == countMin(v, mini, i)",
+        "forall k :: 0 <= k < i ==> mini <= v[k]",
+        "forall k :: 0 <= k < i && v[k] == mini ==> c == countMin(v, mini, i)"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_BinarySearch.dfy": {
+      "candidates": [
+        "0 <= lo <= hi <= a.Length",
+        "forall i :: 0 <= i < lo ==> a[i] < key",
+        "forall i :: hi <= i < a.Length ==> key <= a[i]"
+      ],
+      "survivors": [
+        "0 <= lo <= hi <= a.Length",
+        "forall i :: 0 <= i < lo ==> a[i] < key",
+        "forall i :: hi <= i < a.Length ==> key <= a[i]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny_examples_tmp_tmp8qotd4ez_leetcode_0070-climbing-stairs.dfy": {
+      "candidates": [
+        "1 <= i <= n + 1",
+        "a == Stairs(i - 1)",
+        "b == Stairs(i)"
+      ],
+      "survivors": [
+        "1 <= i <= n + 1"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Metodos_Formais_tmp_tmpbez22nnn_Aula_4_ex1.dfy": {
+      "candidates": [
+        "x + y == a + b",
+        "x - y >= 0"
+      ],
+      "survivors": [
+        "x + y == a + b",
+        "x - y >= 0"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_273.dfy": {
+      "candidates": [
+        "0 <= i <= |a|",
+        "|result| == i",
+        "forall j :: 0 <= j < i ==> result[j] == a[j] - b[j]"
+      ],
+      "survivors": [
+        "0 <= i <= |a|",
+        "|result| == i",
+        "forall j :: 0 <= j < i ==> result[j] == a[j] - b[j]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Metodos_Formais_tmp_tmpbez22nnn_Aula_4_ex3.dfy": {
+      "candidates": [
+        "x == Fib(i)",
+        "y == Fib(i+1)",
+        "x == Fib(i) && y == Fib(i+1)",
+        "i <= n",
+        "x + y == Fib(i+2)",
+        "i >= 0",
+        "x == Fib(i) && y == Fib(i+1) && i <= n"
+      ],
+      "survivors": [
+        "x == Fib(i)",
+        "y == Fib(i+1)",
+        "x == Fib(i) && y == Fib(i+1)",
+        "i <= n",
+        "x + y == Fib(i+2)",
+        "i >= 0",
+        "x == Fib(i) && y == Fib(i+1) && i <= n"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_38.dfy": {
+      "candidates": [
+        "0 <= i <= n",
+        "x == i",
+        "y == i / 2",
+        "x == 2 * y + (i % 2)",
+        "(i % 2 == 0) ==> (x == 2 * y)",
+        "(i % 2 != 0) ==> (x == 2 * y + 1)"
+      ],
+      "survivors": [
+        "0 <= i <= n",
+        "x == i",
+        "y == i / 2",
+        "x == 2 * y + (i % 2)",
+        "(i % 2 == 0) ==> (x == 2 * y)",
+        "(i % 2 != 0) ==> (x == 2 * y + 1)"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/SENG2011_tmp_tmpgk5jq85q_exam_ex3.dfy": {
+      "candidates": [
+        "0 <= i <= a.Length",
+        "forall k :: 0 <= k < i ==> a[k] == a[a.Length - k - 1]"
+      ],
+      "survivors": [
+        "0 <= i <= a.Length",
+        "forall k :: 0 <= k < i ==> a[k] == a[a.Length - k - 1]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_267.dfy": {
+      "candidates": [
+        "sum == (k * (2*k - 1) * (2*k + 1)) / 3",
+        "i == 2*k + 1",
+        "0 <= k <= n"
+      ],
+      "survivors": [
+        "sum == (k * (2*k - 1) * (2*k + 1)) / 3",
+        "i == 2*k + 1",
+        "0 <= k <= n"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_longest_prefix.dfy": {
+      "candidates": [
+        "0 <= idx <= minLength",
+        "|prefix| == idx",
+        "prefix == str1[0..idx]",
+        "prefix == str2[0..idx]",
+        "idx <= |str1|",
+        "idx <= |str2|",
+        "forall j | 0 <= j < idx :: str1[j] == str2[j]"
+      ],
+      "survivors": [
+        "0 <= idx <= minLength",
+        "|prefix| == idx",
+        "prefix == str1[0..idx]",
+        "prefix == str2[0..idx]",
+        "idx <= |str1|",
+        "idx <= |str2|",
+        "forall j | 0 <= j < idx :: str1[j] == str2[j]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Compilation.dfy": {
+      "candidates": [
+        "forall x: int :: f(x) == x + (55 - y*(y+1)/2)",
+        "forall x: int :: f(x) == f(0) + x",
+        "f(0) + y*(y+1)/2 == 55"
+      ],
+      "survivors": [
+        "forall x: int :: f(x) == x + (55 - y*(y+1)/2)",
+        "forall x: int :: f(x) == f(0) + x"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/DafnyProjects_tmp_tmp2acw_s4s_findMax.dfy": {
+      "candidates": [
+        "0 <= i <= a.Length",
+        "exists k :: 0 <= k < i && max == a[k]",
+        "forall k :: 0 <= k < i ==> max >= a[k]"
+      ],
+      "survivors": [
+        "0 <= i <= a.Length",
+        "exists k :: 0 <= k < i && max == a[k]",
+        "forall k :: 0 <= k < i ==> max >= a[k]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny-Exercises_tmp_tmpjm75muf__Session4Exercises_ExerciseContained.dfy": {
+      "candidates": [
+        "0 <= i <= n",
+        "0 <= j <= m",
+        "forall k :: 0 <= k < i ==> v[k] in w[..m]",
+        "forall k :: 0 <= k < i ==> v[k] in w[..j]",
+        "v[i] > w[j] ==>",
+        "forall k :: i <= k < n ==> v[k] > w[j]"
+      ],
+      "survivors": [
+        "0 <= i <= n",
+        "0 <= j <= m",
+        "forall k :: 0 <= k < i ==> v[k] in w[..m]",
+        "forall k :: 0 <= k < i ==> v[k] in w[..j]",
+        "v[i] > w[j] ==>"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_95.dfy": {
+      "candidates": [
+        "0 <= i <= |s|",
+        "forall j :: 0 <= j < i ==> v <= |s[j]|",
+        "exists j :: 0 <= j < i && v == |s[j]|"
+      ],
+      "survivors": [
+        "0 <= i <= |s|",
+        "forall j :: 0 <= j < i ==> v <= |s[j]|",
+        "exists j :: 0 <= j < i && v == |s[j]|"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/CVS-handout1_tmp_tmptm52no3k_2.dfy": {
+      "candidates": [
+        "length(l) == a.Length - (i + 1)",
+        "forall j: int :: 0 <= j < length(l) ==> at(l, j) == a[i + 1 + j]",
+        "forall x :: mem(l, x) ==> (exists j: int :: i + 1 <= j < a.Length && a[j] == x)",
+        "0 <= i + 1 <= a.Length",
+        "forall j: int :: 0 <= j < length(l) ==> (i + 1 + j < a.Length && at(l, j) == a[i + 1 + j])"
+      ],
+      "survivors": [
+        "length(l) == a.Length - (i + 1)",
+        "forall j: int :: 0 <= j < length(l) ==> at(l, j) == a[i + 1 + j]",
+        "forall x :: mem(l, x) ==> (exists j: int :: i + 1 <= j < a.Length && a[j] == x)",
+        "0 <= i + 1 <= a.Length"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_array_copy.dfy": {
+      "candidates": [
+        "0 <= i <= s.Length",
+        "forall k :: 0 <= k < i ==> t[k] == s[k]",
+        "t.Length == s.Length"
+      ],
+      "survivors": [
+        "0 <= i <= s.Length",
+        "forall k :: 0 <= k < i ==> t[k] == s[k]",
+        "t.Length == s.Length"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Workshop_tmp_tmp0cu11bdq_Lecture_Answers_triangle_number.dfy": {
+      "candidates": [
+        "t == n * (n + 1) / 2",
+        "0 <= n <= N",
+        "n >= 0"
+      ],
+      "survivors": [
+        "t == n * (n + 1) / 2",
+        "0 <= n <= N",
+        "n >= 0"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/MIEIC_mfes_tmp_tmpq3ho7nve_exams_appeal_20_p4.dfy": {
+      "candidates": [
+        "0 <= i <= n",
+        "a == F(i)",
+        "b == F(i+1)",
+        "c == F(i+2)"
+      ],
+      "survivors": [
+        "0 <= i <= n",
+        "a == F(i)",
+        "b == F(i+1)",
+        "c == F(i+2)"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_472.dfy": {
+      "candidates": [
+        "0 <= i <= a.Length - 1",
+        "result ==> (exists j :: 0 <= j < i && a[j] + 1 == a[j + 1])",
+        "!result ==> (forall j :: 0 <= j < i ==> a[j] + 1 != a[j + 1])"
+      ],
+      "survivors": [
+        "0 <= i <= a.Length - 1",
+        "result ==> (exists j :: 0 <= j < i && a[j] + 1 == a[j + 1])",
+        "!result ==> (forall j :: 0 <= j < i ==> a[j] + 1 != a[j + 1])"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/703FinalProject_tmp_tmpr_10rn4z_gaussian.dfy": {
+      "candidates": [
+        "0 <= i <= size",
+        "alpha == arraySquaredSum(q_hat[..i])"
+      ],
+      "survivors": [
+        "0 <= i <= size"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_replace.dfy": {
+      "candidates": [
+        "forall j :: 0 <= j < i ==> old(arr[j]) > k ==> arr[j] == -1",
+        "forall j :: 0 <= j < i ==> old(arr[j]) <= k ==> arr[j] == old(arr[j])",
+        "forall j :: i <= j < arr.Length ==> arr[j] == old(arr[j])",
+        "0 <= i <= arr.Length"
+      ],
+      "survivors": [
+        "forall j :: i <= j < arr.Length ==> arr[j] == old(arr[j])",
+        "0 <= i <= arr.Length"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_307.dfy": {
+      "candidates": [
+        "|newSeq| == i",
+        "forall j :: 0 <= j < i ==> newSeq[j] == s[j]",
+        "0 <= i <= |s|",
+        "newSeq == s[0..i]"
+      ],
+      "survivors": [
+        "|newSeq| == i",
+        "forall j :: 0 <= j < i ==> newSeq[j] == s[j]",
+        "0 <= i <= |s|",
+        "newSeq == s[0..i]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_261.dfy": {
+      "candidates": [
+        "0 <= i <= |a|",
+        "|result| == i",
+        "forall j :: 0 <= j < i ==> result[j] == a[j] / b[j]"
+      ],
+      "survivors": [
+        "0 <= i <= |a|",
+        "|result| == i",
+        "forall j :: 0 <= j < i ==> result[j] == a[j] / b[j]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_28.dfy": {
+      "candidates": [
+        "x_out == y_out",
+        "x_out >= 0",
+        "n == 0",
+        "x_out <= x",
+        "y_out <= y",
+        "x_out == y_out && x_out >= 0",
+        "x_out == y_out && n == 0"
+      ],
+      "survivors": [
+        "x_out == y_out",
+        "x_out >= 0",
+        "n == 0",
+        "x_out <= x",
+        "y_out <= y",
+        "x_out == y_out && x_out >= 0",
+        "x_out == y_out && n == 0"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/M2_tmp_tmp2laaavvl_Software Verification_Exercices_Exo9-Carre.dfy": {
+      "candidates": [
+        "0 <= i <= a",
+        "c == i * i",
+        "c + (2*i + 1) == (i+1)*(i+1)"
+      ],
+      "survivors": [
+        "0 <= i <= a",
+        "c == i * i",
+        "c + (2*i + 1) == (i+1)*(i+1)"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/metodosFormais_tmp_tmp4q2kmya4_T1-MetodosFormais_examples_ex1.dfy": {
+      "candidates": [
+        "0 <= r <= a.Length",
+        "forall i :: 0 <= i < r ==> a[i] != x"
+      ],
+      "survivors": [
+        "0 <= r <= a.Length",
+        "forall i :: 0 <= i < r ==> a[i] != x"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_match.dfy": {
+      "candidates": [
+        "0 <= i <= |s|",
+        "forall j :: 0 <= j < i ==> s[j] == p[j] || p[j] == '?'"
+      ],
+      "survivors": [
+        "0 <= i <= |s|",
+        "forall j :: 0 <= j < i ==> s[j] == p[j] || p[j] == '?'"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_array_concat.dfy": {
+      "candidates": [
+        "0 <= i <= c.Length",
+        "forall k :: 0 <= k < i ==> (if k < a.Length then c[k] == a[k] else c[k] == b[k - a.Length])",
+        "c.Length == a.Length + b.Length"
+      ],
+      "survivors": [
+        "0 <= i <= c.Length",
+        "forall k :: 0 <= k < i ==> (if k < a.Length then c[k] == a[k] else c[k] == b[k - a.Length])",
+        "c.Length == a.Length + b.Length"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_min_array.dfy": {
+      "candidates": [
+        "0 <= i <= a.Length",
+        "forall j :: 0 <= j < i ==> r <= a[j]",
+        "exists j :: 0 <= j < i && r == a[j]"
+      ],
+      "survivors": [
+        "0 <= i <= a.Length",
+        "forall j :: 0 <= j < i ==> r <= a[j]",
+        "exists j :: 0 <= j < i && r == a[j]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_399.dfy": {
+      "candidates": [
+        "0 <= i <= |a|",
+        "|result| == i",
+        "forall j :: 0 <= j < i ==> result[j] == a[j] ^ b[j]",
+        "|a| == |b|"
+      ],
+      "survivors": [
+        "0 <= i <= |a|",
+        "|result| == i",
+        "forall j :: 0 <= j < i ==> result[j] == a[j] ^ b[j]",
+        "|a| == |b|"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Metodos_Formais_tmp_tmpql2hwcsh_Arrays_explicacao.dfy": {
+      "candidates": [
+        "0 <= r <= a.Length",
+        "forall i :: 0 <= i < r ==> a[i] != x"
+      ],
+      "survivors": [
+        "0 <= r <= a.Length",
+        "forall i :: 0 <= i < r ==> a[i] != x"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_249.dfy": {
+      "candidates": [
+        "forall k :: 0 <= k < |res| ==> InArray(a, res[k]) && InArray(b, res[k])",
+        "forall k :: 0 <= k < |res| ==> exists j :: 0 <= j < i && a[j] == res[k]",
+        "forall i, j :: 0 <= i < j < |res| ==> res[i] != res[j]",
+        "forall k :: 0 <= k < |res| ==> res[k] !in res[0..k]",
+        "forall k :: 0 <= k < |res| ==> a[k] in res <==> (InArray(b, a[k]) && a[k] !in res[0..k])"
+      ],
+      "survivors": [
+        "forall k :: 0 <= k < |res| ==> InArray(a, res[k]) && InArray(b, res[k])",
+        "forall k :: 0 <= k < |res| ==> exists j :: 0 <= j < i && a[j] == res[k]",
+        "forall i, j :: 0 <= i < j < |res| ==> res[i] != res[j]",
+        "forall k :: 0 <= k < |res| ==> res[k] !in res[0..k]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/SENG2011_tmp_tmpgk5jq85q_flex_ex1.dfy": {
+      "candidates": [
+        "0 <= i <= s.Length",
+        "a == sumcheck(s, i)"
+      ],
+      "survivors": [
+        "0 <= i <= s.Length",
+        "a == sumcheck(s, i)"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_414.dfy": {
+      "candidates": [
+        "0 <= i <= |seq1|",
+        "result ==> (exists j :: 0 <= j < i && seq1[j] in seq2)",
+        "!result ==> (forall j :: 0 <= j < i ==> seq1[j] !in seq2)"
+      ],
+      "survivors": [
+        "0 <= i <= |seq1|",
+        "result ==> (exists j :: 0 <= j < i && seq1[j] in seq2)",
+        "!result ==> (forall j :: 0 <= j < i ==> seq1[j] !in seq2)"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/DafnyProjects_tmp_tmp2acw_s4s_longestPrefix.dfy": {
+      "candidates": [
+        "i <= a.Length",
+        "i <= b.Length",
+        "a[..i] == b[..i]",
+        "forall j :: 0 <= j < i ==> a[j] == b[j]"
+      ],
+      "survivors": [
+        "i <= a.Length",
+        "i <= b.Length",
+        "a[..i] == b[..i]",
+        "forall j :: 0 <= j < i ==> a[j] == b[j]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_cal_sum.dfy": {
+      "candidates": [
+        "0 <= n <= N",
+        "s == n * (n + 1) / 2"
+      ],
+      "survivors": [
+        "0 <= n <= N",
+        "s == n * (n + 1) / 2"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Generated_Code_ComputePower.dfy": {
+      "candidates": [
+        "p == Power(i)",
+        "i <= n",
+        "0 <= i <= n",
+        "p == Power(i) && i <= n",
+        "p == Power(i) && 0 <= i <= n"
+      ],
+      "survivors": [
+        "p == Power(i)",
+        "i <= n",
+        "0 <= i <= n",
+        "p == Power(i) && i <= n",
+        "p == Power(i) && 0 <= i <= n"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_quotient.dfy": {
+      "candidates": [
+        "q * y + r == x",
+        "0 <= r",
+        "0 <= q"
+      ],
+      "survivors": [
+        "q * y + r == x",
+        "0 <= r",
+        "0 <= q"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_error_data_completion_11.dfy": {
+      "candidates": [
+        "j == 2 * i",
+        "i <= x",
+        "0 <= i <= x"
+      ],
+      "survivors": [
+        "j == 2 * i",
+        "i <= x",
+        "0 <= i <= x"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_603.dfy": {
+      "candidates": [
+        "0 <= i <= n+1",
+        "forall k :: 0 <= k < |lucid| ==> lucid[k] % 3 == 0",
+        "forall k :: 0 <= k < |lucid| ==> lucid[k] <= n",
+        "forall k :: 0 <= k < |lucid| ==> lucid[k] < i",
+        "forall k, m :: 0 <= k < m < |lucid| ==> lucid[k] < lucid[m]",
+        "|lucid| == i / 3",
+        "i == |lucid| * 3 + (i % 3)"
+      ],
+      "survivors": [
+        "0 <= i <= n+1",
+        "forall k :: 0 <= k < |lucid| ==> lucid[k] % 3 == 0",
+        "forall k :: 0 <= k < |lucid| ==> lucid[k] <= n",
+        "forall k :: 0 <= k < |lucid| ==> lucid[k] < i"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Software-Verification_tmp_tmpv4ueky2d_Remove Element_remove_element.dfy": {
+      "candidates": [
+        "0 <= i <= end + 1",
+        "end < nums.Length",
+        "0 <= end",
+        "forall k :: 0 <= k < i ==> nums[k] != val",
+        "i <= nums.Length",
+        "0 <= i"
+      ],
+      "survivors": [
+        "0 <= i <= end + 1",
+        "end < nums.Length",
+        "forall k :: 0 <= k < i ==> nums[k] != val",
+        "i <= nums.Length",
+        "0 <= i"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseSeparate.dfy": {
+      "candidates": [
+        "0 <= i <= j + 1 <= v.Length",
+        "0 <= i <= v.Length",
+        "-1 <= j < v.Length",
+        "forall u :: 0 <= u < i ==> v[u] >= 0",
+        "forall u :: j < u < v.Length ==> v[u] < 0",
+        "multiset(v[0..v.Length]) == multiset(old(v[0..v.Length]))"
+      ],
+      "survivors": [
+        "0 <= i <= j + 1 <= v.Length",
+        "0 <= i <= v.Length",
+        "-1 <= j < v.Length",
+        "forall u :: 0 <= u < i ==> v[u] >= 0",
+        "forall u :: j < u < v.Length ==> v[u] < 0",
+        "multiset(v[0..v.Length]) == multiset(old(v[0..v.Length]))"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny-Exercises_tmp_tmpjm75muf__Session4Exercises_ExercisefirstZero.dfy": {
+      "candidates": [
+        "0 <= i <= v.Length",
+        "forall j :: 0 <= j < i ==> v[j] != 0"
+      ],
+      "survivors": [
+        "0 <= i <= v.Length",
+        "forall j :: 0 <= j < i ==> v[j] != 0"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/630-dafny_tmp_tmpz2kokaiq_Solution.dfy": {
+      "candidates": [
+        "0 <= low <= a.Length",
+        "-1 <= high < a.Length",
+        "low <= high + 1",
+        "forall i :: 0 <= i < low ==> a[i] != x",
+        "forall i :: high < i < a.Length ==> a[i] != x"
+      ],
+      "survivors": [
+        "0 <= low <= a.Length",
+        "-1 <= high < a.Length",
+        "low <= high + 1",
+        "forall i :: 0 <= i < low ==> a[i] != x",
+        "forall i :: high < i < a.Length ==> a[i] != x"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/MFES_2021_tmp_tmpuljn8zd9_FCUL_Exercises_8_sum.dfy": {
+      "candidates": [
+        "i <= n",
+        "s == calcSum(i + 1)",
+        "i >= 0",
+        "s == i * (i + 1) / 2"
+      ],
+      "survivors": [
+        "i <= n",
+        "s == calcSum(i + 1)",
+        "i >= 0",
+        "s == i * (i + 1) / 2"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_775.dfy": {
+      "candidates": [
+        "0 <= i <= a.Length",
+        "forall j :: 0 <= j < i ==> (!IsOdd(j) || IsOdd(a[j]))",
+        "result ==> forall j :: 0 <= j < i ==> (IsOdd(j) ==> IsOdd(a[j]))",
+        "!result ==> exists j :: 0 <= j < i && IsOdd(j) && !IsOdd(a[j])"
+      ],
+      "survivors": [
+        "0 <= i <= a.Length",
+        "forall j :: 0 <= j < i ==> (!IsOdd(j) || IsOdd(a[j]))",
+        "result ==> forall j :: 0 <= j < i ==> (IsOdd(j) ==> IsOdd(a[j]))",
+        "!result ==> exists j :: 0 <= j < i && IsOdd(j) && !IsOdd(a[j])"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-exercise_tmp_tmpouftptir_firstE.dfy": {
+      "candidates": [
+        "0 <= i <= a.Length",
+        "forall j | 0 <= j < i :: a[j] != 'e'"
+      ],
+      "survivors": [
+        "0 <= i <= a.Length",
+        "forall j | 0 <= j < i :: a[j] != 'e'"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_629.dfy": {
+      "candidates": [
+        "forall j :: 0 <= j < i && IsEven(arr[j]) ==> arr[j] in evenList",
+        "forall x :: x in evenList ==> IsEven(x) && x in arr[..i]"
+      ],
+      "survivors": [
+        "forall j :: 0 <= j < i && IsEven(arr[j]) ==> arr[j] in evenList",
+        "forall x :: x in evenList ==> IsEven(x) && x in arr[..i]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Exercise6_Binary_Search.dfy": {
+      "candidates": [
+        "0 <= left <= right <= a.Length",
+        "forall k :: 0 <= k < left ==> a[k] < val",
+        "forall k :: right <= k < a.Length ==> a[k] > val",
+        "a[left] <= val <= a[right-1]",
+        "0 <= left < a.Length && 0 <= right <= a.Length",
+        "forall k :: 0 <= k < left || right <= k < a.Length ==> a[k] != val"
+      ],
+      "survivors": [
+        "0 <= left <= right <= a.Length",
+        "forall k :: 0 <= k < left ==> a[k] < val",
+        "forall k :: right <= k < a.Length ==> a[k] > val",
+        "0 <= left < a.Length && 0 <= right <= a.Length",
+        "forall k :: 0 <= k < left || right <= k < a.Length ==> a[k] != val"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/SENG2011_tmp_tmpgk5jq85q_flex_ex2.dfy": {
+      "candidates": [
+        "forall k :: 0 <= k < i ==> a >= s[k]",
+        "0 <= i <= s.Length",
+        "forall k :: 0 <= k < i ==> a >= maxcheck(s, k, s[0])",
+        "a == maxcheck(s, i, s[0])"
+      ],
+      "survivors": [
+        "forall k :: 0 <= k < i ==> a >= s[k]",
+        "0 <= i <= s.Length"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/MFES_2021_tmp_tmpuljn8zd9_Exams_Special_Exam_03_2020_4_CatalanNumbers.dfy": {
+      "candidates": [
+        "0 <= i <= n",
+        "res == C(i)"
+      ],
+      "survivors": [
+        "0 <= i <= n",
+        "res == C(i)"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_RotateRight.dfy": {
+      "candidates": [
+        "1 <= n <= a.Length",
+        "a[0] == old(a[n-1])",
+        "forall i :: 1 <= i < n ==> a[i] == old(a[i-1])",
+        "forall i :: n <= i < a.Length ==> a[i] == old(a[i])"
+      ],
+      "survivors": [
+        "1 <= n <= a.Length",
+        "a[0] == old(a[n-1])",
+        "forall i :: 1 <= i < n ==> a[i] == old(a[i-1])",
+        "forall i :: n <= i < a.Length ==> a[i] == old(a[i])"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_all_digits.dfy": {
+      "candidates": [
+        "0 <= i <= |s|",
+        "forall j :: 0 <= j < i ==> s[j] in \"0123456789\""
+      ],
+      "survivors": [
+        "0 <= i <= |s|",
+        "forall j :: 0 <= j < i ==> s[j] in \"0123456789\""
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_tmp_tmpv_d3qi10_3_cumsum.dfy": {
+      "candidates": [
+        "0 <= i <= a.Length",
+        "forall k | 0 <= k < i :: b[k] == sum(a, k)"
+      ],
+      "survivors": [
+        "0 <= i <= a.Length",
+        "forall k | 0 <= k < i :: b[k] == sum(a, k)"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_412.dfy": {
+      "candidates": [
+        "forall j :: 0 <= j < i && IsEven(arr[j]) ==> arr[j] in evenList",
+        "forall x :: x in evenList ==> IsEven(x) && x in arr[0..i]"
+      ],
+      "survivors": [
+        "forall j :: 0 <= j < i && IsEven(arr[j]) ==> arr[j] in evenList",
+        "forall x :: x in evenList ==> IsEven(x) && x in arr[0..i]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny_misc_tmp_tmpg4vzlnm1_rosetta_code_fibonacci_sequence.dfy": {
+      "candidates": [
+        "2 <= i <= n",
+        "f == Fibonacci(i)",
+        "prev == Fibonacci(i-1)"
+      ],
+      "survivors": [
+        "2 <= i <= n",
+        "f == Fibonacci(i)",
+        "prev == Fibonacci(i-1)"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-exercise_tmp_tmpouftptir_countNeg.dfy": {
+      "candidates": [
+        "0 <= i <= a.Length",
+        "cnt == verifyNeg(a, i)"
+      ],
+      "survivors": [
+        "0 <= i <= a.Length",
+        "cnt == verifyNeg(a, i)"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_error_data_completion_07.dfy": {
+      "candidates": [
+        "a + b == 3 * i",
+        "0 <= i <= n",
+        "i <= n",
+        "a >= 0",
+        "b >= 0"
+      ],
+      "survivors": [
+        "a + b == 3 * i",
+        "0 <= i <= n",
+        "i <= n",
+        "a >= 0",
+        "b >= 0"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_599.dfy": {
+      "candidates": [
+        "0 <= sum <= n * (i + 1) / 2",
+        "sum == i * (i - 1) / 2",
+        "1 <= i <= n + 1",
+        "sum as real / n as real == (i - 1) * i as real / (2 * n as real)"
+      ],
+      "survivors": [
+        "sum == i * (i - 1) / 2",
+        "1 <= i <= n + 1",
+        "sum as real / n as real == (i - 1) * i as real / (2 * n as real)"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_binary_search.dfy": {
+      "candidates": [
+        "0 <= lo <= hi <= a.Length",
+        "forall i :: 0 <= i < lo ==> a[i] < key",
+        "forall i :: hi <= i < a.Length ==> a[i] >= key"
+      ],
+      "survivors": [
+        "0 <= lo <= hi <= a.Length",
+        "forall i :: 0 <= i < lo ==> a[i] < key",
+        "forall i :: hi <= i < a.Length ==> a[i] >= key"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/metodosFormais_tmp_tmp4q2kmya4_T1-MetodosFormais_examples_somatoriov2.dfy": {
+      "candidates": [
+        "0 <= i <= a.Length",
+        "s == somaAteAberto(a, i)",
+        "s >= 0",
+        "i <= a.Length",
+        "s == somaAteAberto(a, i) && 0 <= i <= a.Length"
+      ],
+      "survivors": [
+        "0 <= i <= a.Length",
+        "s == somaAteAberto(a, i)",
+        "s >= 0",
+        "i <= a.Length",
+        "s == somaAteAberto(a, i) && 0 <= i <= a.Length"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_remove_front.dfy": {
+      "candidates": [
+        "0 <= i <= a.Length",
+        "forall j :: 0 <= j < i-1 ==> c[j] == a[j+1]",
+        "c.Length == a.Length - 1",
+        "i >= 1",
+        "i <= a.Length",
+        "forall j :: 1 <= j < i ==> c[j-1] == a[j]"
+      ],
+      "survivors": [
+        "0 <= i <= a.Length",
+        "forall j :: 0 <= j < i-1 ==> c[j] == a[j+1]",
+        "c.Length == a.Length - 1",
+        "i >= 1",
+        "i <= a.Length",
+        "forall j :: 1 <= j < i ==> c[j-1] == a[j]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_759.dfy": {
+      "candidates": [
+        "0 <= i <= |s|",
+        "result ==> (exists j :: 0 <= j < i && s[j] == '.' && |s| - j - 1 == 2)",
+        "!result ==> !(exists j :: 0 <= j < i && s[j] == '.' && |s| - j - 1 == 2)"
+      ],
+      "survivors": [
+        "0 <= i <= |s|",
+        "result ==> (exists j :: 0 <= j < i && s[j] == '.' && |s| - j - 1 == 2)",
+        "!result ==> !(exists j :: 0 <= j < i && s[j] == '.' && |s| - j - 1 == 2)"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_18.dfy": {
+      "candidates": [
+        "0 <= i <= |s1|",
+        "|v'| <= i",
+        "forall j :: 0 <= j < |v'| ==> (v'[j] in s1) && !(v'[j] in s2)",
+        "forall j :: 0 <= j < i ==> (s1[j] in s2) || (s1[j] in v')"
+      ],
+      "survivors": [
+        "0 <= i <= |s1|",
+        "|v'| <= i",
+        "forall j :: 0 <= j < |v'| ==> (v'[j] in s1) && !(v'[j] in s2)",
+        "forall j :: 0 <= j < i ==> (s1[j] in s2) || (s1[j] in v')"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny_misc_tmp_tmpg4vzlnm1_rosetta_code_factorial.dfy": {
+      "candidates": [
+        "result == Factorial(i - 1)",
+        "result == Factorial(i - 1) && i <= n + 1",
+        "result == Factorial(i - 1) && 1 <= i <= n + 1",
+        "result * Factorial(n - i + 1) == Factorial(n)"
+      ],
+      "survivors": [
+        "result == Factorial(i - 1)",
+        "result == Factorial(i - 1) && i <= n + 1",
+        "result == Factorial(i - 1) && 1 <= i <= n + 1",
+        "result * Factorial(n - i + 1) == Factorial(n)"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_SegmentSum.dfy": {
+      "candidates": [
+        "0 <= k <= m <= n",
+        "0 <= c <= n",
+        "s == Sum(a, k, m)",
+        "t == Sum(a, c, n)",
+        "t >= 0",
+        "s >= 0",
+        "forall p,q :: 0 <= p <= q <= n ==> Sum(a, p, q) <= s",
+        "forall p :: 0 <= p <= n ==> Sum(a, p, n) <= t"
+      ],
+      "survivors": [
+        "0 <= c <= n",
+        "t >= 0",
+        "s >= 0",
+        "forall p :: 0 <= p <= n ==> Sum(a, p, n) <= t"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/MFS_tmp_tmpmmnu354t_Testes anteriores_T2_ex5_2020_2.dfy": {
+      "candidates": [
+        "0 <= i <= a.Length",
+        "0 <= i <= b.Length",
+        "forall j :: 0 <= j < i ==> a[j] == b[j]",
+        "forall j :: 0 <= j < i ==> !(a[j] < b[j]) && !(a[j] > b[j])"
+      ],
+      "survivors": [
+        "0 <= i <= a.Length",
+        "0 <= i <= b.Length",
+        "forall j :: 0 <= j < i ==> a[j] == b[j]",
+        "forall j :: 0 <= j < i ==> !(a[j] < b[j]) && !(a[j] > b[j])"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_567.dfy": {
+      "candidates": [
+        "sorted == true",
+        "forall k: int :: 0 <= k < i ==> a[k] <= a[k+1]",
+        "0 <= i < a.Length - 1"
+      ],
+      "survivors": [
+        "sorted == true",
+        "forall k: int :: 0 <= k < i ==> a[k] <= a[k+1]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Software-Verification_tmp_tmpv4ueky2d_Contains Duplicate_contains_duplicate.dfy": {
+      "candidates": [
+        "0 <= i <= |nums|",
+        "s == set(nums[0..i])",
+        "forall k :: 0 <= k < i ==> nums[k] !in s",
+        "forall k :: 0 <= k < i ==> nums[k] in s",
+        "i == |s|"
+      ],
+      "survivors": [
+        "0 <= i <= |nums|",
+        "s == set(nums[0..i])",
+        "forall k :: 0 <= k < i ==> nums[k] in s",
+        "i == |s|"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_linear_search1.dfy": {
+      "candidates": [
+        "0 <= n <= a.Length",
+        "forall i :: 0 <= i < n ==> e != a[i]",
+        "n == a.Length || a[n] == e"
+      ],
+      "survivors": [
+        "0 <= n <= a.Length",
+        "forall i :: 0 <= i < n ==> e != a[i]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_605.dfy": {
+      "candidates": [
+        "0 <= i <= n/2 + 1",
+        "result ==> (forall k :: 2 <= k < i ==> n % k != 0)",
+        "!result ==> (exists k :: 2 <= k < i && n % k == 0)"
+      ],
+      "survivors": [
+        "0 <= i <= n/2 + 1",
+        "result ==> (forall k :: 2 <= k < i ==> n % k != 0)",
+        "!result ==> (exists k :: 2 <= k < i && n % k == 0)"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_array_product.dfy": {
+      "candidates": [
+        "0 <= i <= a.Length",
+        "forall j :: 0 <= j < i ==> c[j] == a[j] * b[j]"
+      ],
+      "survivors": [
+        "0 <= i <= a.Length",
+        "forall j :: 0 <= j < i ==> c[j] == a[j] * b[j]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_a3_search_findPositionOfIndex.dfy": {
+      "candidates": [
+        "0 <= Count <= n1",
+        "forall i :: 0 <= i < Count ==> a[n1-1-i] != Element",
+        "Position == 0 || Position == Count + 1"
+      ],
+      "survivors": [
+        "0 <= Count <= n1",
+        "forall i :: 0 <= i < Count ==> a[n1-1-i] != Element",
+        "Position == 0 || Position == Count + 1"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Generated_Code_rand.dfy": {
+      "candidates": [
+        "z == x * y",
+        "x >= 0"
+      ],
+      "survivors": [
+        "z == x * y",
+        "x >= 0"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_565.dfy": {
+      "candidates": [
+        "|v| == i",
+        "v == s[0..i]",
+        "forall j :: 0 <= j < i ==> v[j] == s[j]"
+      ],
+      "survivors": [
+        "|v| == i",
+        "v == s[0..i]",
+        "forall j :: 0 <= j < i ==> v[j] == s[j]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/SENG2011_tmp_tmpgk5jq85q_flex_ex5.dfy": {
+      "candidates": [
+        "0 <= i <= a.Length",
+        "forall x :: 0 <= x < i ==> a[x] != 'e'"
+      ],
+      "survivors": [
+        "0 <= i <= a.Length",
+        "forall x :: 0 <= x < i ==> a[x] != 'e'"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_week8_CheckSumCalculator.dfy": {
+      "candidates": [
+        "cs == Hash(data)",
+        "data == old(data) + d[..i]",
+        "0 <= i <= |d|"
+      ],
+      "survivors": [
+        "cs == Hash(data)",
+        "data == old(data) + d[..i]",
+        "0 <= i <= |d|"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_161.dfy": {
+      "candidates": [
+        "0 <= i <= a.Length",
+        "forall x :: x in res ==> InArray(a, x) && !InArray(b, x)",
+        "forall j, k :: 0 <= j < k < |res| ==> res[j] != res[k]",
+        "forall x :: x in res ==> exists j :: 0 <= j < i && a[j] == x",
+        "forall x :: x in res ==> !InArray(b, x)"
+      ],
+      "survivors": [
+        "0 <= i <= a.Length",
+        "forall x :: x in res ==> InArray(a, x) && !InArray(b, x)",
+        "forall j, k :: 0 <= j < k < |res| ==> res[j] != res[k]",
+        "forall x :: x in res ==> exists j :: 0 <= j < i && a[j] == x",
+        "forall x :: x in res ==> !InArray(b, x)"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_809.dfy": {
+      "candidates": [
+        "forall j :: 0 <= j < i ==> a[j] > b[j]",
+        "result == true ==> forall j :: 0 <= j < i ==> a[j] > b[j]",
+        "result == false ==> exists j :: 0 <= j < i && a[j] <= b[j]",
+        "0 <= i <= |a|"
+      ],
+      "survivors": [
+        "forall j :: 0 <= j < i ==> a[j] > b[j]",
+        "result == true ==> forall j :: 0 <= j < i ==> a[j] > b[j]",
+        "result == false ==> exists j :: 0 <= j < i && a[j] <= b[j]",
+        "0 <= i <= |a|"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-workout_tmp_tmp0abkw6f8_starter_ex09.dfy": {
+      "candidates": [
+        "1 <= i <= n",
+        "b == fib(i)",
+        "c == fib(i+1)"
+      ],
+      "survivors": [
+        "1 <= i <= n",
+        "b == fib(i)",
+        "c == fib(i+1)"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_array_append.dfy": {
+      "candidates": [
+        "0 <= i <= a.Length",
+        "forall k :: 0 <= k < i ==> c[k] == a[k]",
+        "i <= a.Length",
+        "a[..i] == c[..i]"
+      ],
+      "survivors": [
+        "0 <= i <= a.Length",
+        "forall k :: 0 <= k < i ==> c[k] == a[k]",
+        "i <= a.Length",
+        "a[..i] == c[..i]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_integer_square_root.dfy": {
+      "candidates": [
+        "r * r <= N",
+        "0 <= r && r * r <= N",
+        "r <= N && r * r <= N"
+      ],
+      "survivors": [
+        "r * r <= N",
+        "0 <= r && r * r <= N",
+        "r <= N && r * r <= N"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-exercise_tmp_tmpouftptir_prac1_ex2.dfy": {
+      "candidates": [
+        "forall k :: 0 <= k < i ==> a[k] == old(a[k])",
+        "forall k :: i <= k < c ==> a[k] == old(a[k + 1])",
+        "forall k :: c <= k < a.Length ==> a[k] == old(a[k])",
+        "c >= i",
+        "c <= a.Length - 1",
+        "forall k :: c <= k < a.Length - 1 ==> a[k] == old(a[k + 1])",
+        "forall k :: a.Length - 1 <= k < a.Length ==> a[k] == old(a[k])"
+      ],
+      "survivors": [
+        "forall k :: 0 <= k < i ==> a[k] == old(a[k])",
+        "forall k :: c <= k < a.Length ==> a[k] == old(a[k])",
+        "c >= i",
+        "c <= a.Length - 1",
+        "forall k :: a.Length - 1 <= k < a.Length ==> a[k] == old(a[k])"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_linear_search2.dfy": {
+      "candidates": [
+        "0 <= n <= a.Length",
+        "forall k :: 0 <= k < n ==> a[k] != e",
+        "(n < a.Length) ==> exists i :: n <= i < a.Length && a[i] == e"
+      ],
+      "survivors": [
+        "0 <= n <= a.Length",
+        "forall k :: 0 <= k < n ==> a[k] != e",
+        "(n < a.Length) ==> exists i :: n <= i < a.Length && a[i] == e"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_743.dfy": {
+      "candidates": [
+        "|rotated| == i",
+        "forall j :: 0 <= j < i ==> rotated[j] == l[(j - n + |l|) % |l|]"
+      ],
+      "survivors": [
+        "|rotated| == i",
+        "forall j :: 0 <= j < i ==> rotated[j] == l[(j - n + |l|) % |l|]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_623.dfy": {
+      "candidates": [
+        "|result| == i",
+        "forall j :: 0 <= j < i ==> result[j] == Power(l[j], n)",
+        "0 <= i <= |l|"
+      ],
+      "survivors": [
+        "|result| == i",
+        "forall j :: 0 <= j < i ==> result[j] == Power(l[j], n)",
+        "0 <= i <= |l|"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/t1_MF_tmp_tmpi_sqie4j_exemplos_colecoes_sequences_ex3.dfy": {
+      "candidates": [
+        "at <= l - p",
+        "i <= l - (at + p)",
+        "forall k :: 0 <= k < i ==> line[at + k] == old(line[at + p + k])",
+        "0 <= i",
+        "forall k :: i <= k < at + p ==> line[at + k] == old(line[at + k])"
+      ],
+      "survivors": [
+        "at <= l - p",
+        "i <= l - (at + p)",
+        "0 <= i"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_canyon_search.dfy": {
+      "candidates": [
+        "0 <= m <= a.Length",
+        "0 <= n <= b.Length",
+        "d >= 0",
+        "exists i,j :: 0 <= i < a.Length && 0 <= j < b.Length && d == if a[i] < b[j] then b[j]-a[i] else a[i]-b[j]",
+        "forall i :: 0 <= i < m ==> forall j :: 0 <= j < n ==> if a[i] < b[j] then b[j]-a[i] else a[i]-b[j] >= d",
+        "forall i :: 0 <= i < m ==> forall j :: n <= j < b.Length ==> if a[i] < b[j] then b[j]-a[i] else a[i]-b[j] >= d",
+        "forall i :: m <= i < a.Length ==> forall j :: 0 <= j < n ==> if a[i] < b[j] then b[j]-a[i] else a[i]-b[j] >= d"
+      ],
+      "survivors": [
+        "0 <= m <= a.Length",
+        "0 <= n <= b.Length",
+        "d >= 0",
+        "exists i,j :: 0 <= i < a.Length && 0 <= j < b.Length && d == if a[i] < b[j] then b[j]-a[i] else a[i]-b[j]",
+        "forall i :: 0 <= i < m ==> forall j :: 0 <= j < n ==> if a[i] < b[j] then b[j]-a[i] else a[i]-b[j] >= d",
+        "forall i :: 0 <= i < m ==> forall j :: n <= j < b.Length ==> if a[i] < b[j] then b[j]-a[i] else a[i]-b[j] >= d",
+        "forall i :: m <= i < a.Length ==> forall j :: 0 <= j < n ==> if a[i] < b[j] then b[j]-a[i] else a[i]-b[j] >= d"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-exercise_tmp_tmpouftptir_prac4_ex2.dfy": {
+      "candidates": [
+        "0 <= i <= a.Length - 2",
+        "forall j: int :: 0 <= j < i ==> !(a[j] == a[j+1] == a[j+2])",
+        "index == a.Length"
+      ],
+      "survivors": [
+        "0 <= i <= a.Length - 2",
+        "forall j: int :: 0 <= j < i ==> !(a[j] == a[j+1] == a[j+2])",
+        "index == a.Length"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_554.dfy": {
+      "candidates": [
+        "0 <= i <= arr.Length",
+        "forall j :: 0 <= j < i && IsOdd(arr[j]) ==> arr[j] in oddList",
+        "forall j :: 0 <= j < |oddList| ==> IsOdd(oddList[j]) && oddList[j] in arr[..i]",
+        "oddList == [arr[x] | x in (0..i) | IsOdd(arr[x])]",
+        "|oddList| <= i"
+      ],
+      "survivors": [
+        "0 <= i <= arr.Length",
+        "forall j :: 0 <= j < i && IsOdd(arr[j]) ==> arr[j] in oddList",
+        "forall j :: 0 <= j < |oddList| ==> IsOdd(oddList[j]) && oddList[j] in arr[..i]",
+        "oddList == [arr[x] | x in (0..i) | IsOdd(arr[x])]",
+        "|oddList| <= i"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_436.dfy": {
+      "candidates": [
+        "0 <= i <= arr.Length",
+        "forall k :: 0 <= k < |negativeList| ==> IsNegative(negativeList[k]) && negativeList[k] in arr[..i]",
+        "forall k :: 0 <= k < i && IsNegative(arr[k]) ==> arr[k] in negativeList"
+      ],
+      "survivors": [
+        "0 <= i <= arr.Length",
+        "forall k :: 0 <= k < |negativeList| ==> IsNegative(negativeList[k]) && negativeList[k] in arr[..i]",
+        "forall k :: 0 <= k < i && IsNegative(arr[k]) ==> arr[k] in negativeList"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Metodos_Formais_tmp_tmpql2hwcsh_Invariantes_fibonacci.dfy": {
+      "candidates": [
+        "x == Fib(i)",
+        "y == Fib(i+1)",
+        "0 <= i <= n"
+      ],
+      "survivors": [
+        "x == Fib(i)",
+        "y == Fib(i+1)",
+        "0 <= i <= n"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_230.dfy": {
+      "candidates": [
+        "forall i :: 0 <= i < |s| && i < |s'| ==> (s[i] == ' ' ==> s'[i] == ch) && (s[i] != ' ' ==> s'[i] == s[i])",
+        "|s'| == i",
+        "forall j :: 0 <= j < i ==> (s[j] == ' ' ==> s'[j] == ch) && (s[j] != ' ' ==> s'[j] == s[j])"
+      ],
+      "survivors": [
+        "forall i :: 0 <= i < |s| && i < |s'| ==> (s[i] == ' ' ==> s'[i] == ch) && (s[i] != ' ' ==> s'[i] == s[i])",
+        "|s'| == i",
+        "forall j :: 0 <= j < i ==> (s[j] == ' ' ==> s'[j] == ch) && (s[j] != ' ' ==> s'[j] == s[j])"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Prog-Fun-Solutions_tmp_tmp7_gmnz5f_extra_pow.dfy": {
+      "candidates": [
+        "x == pow(a, k)",
+        "k <= n"
+      ],
+      "survivors": [
+        "x == pow(a, k)",
+        "k <= n"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_769.dfy": {
+      "candidates": [
+        "0 <= i <= |a|",
+        "forall x :: x in diff <==> (x in a[..i] && x !in b)",
+        "forall x :: x in diff ==> x !in b",
+        "forall j, k :: 0 <= j < k < |diff| ==> diff[j] != diff[k]"
+      ],
+      "survivors": [
+        "0 <= i <= |a|",
+        "forall x :: x in diff <==> (x in a[..i] && x !in b)",
+        "forall x :: x in diff ==> x !in b",
+        "forall j, k :: 0 <= j < k < |diff| ==> diff[j] != diff[k]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_557.dfy": {
+      "candidates": [
+        "0 <= i <= |s|",
+        "|s'| == i",
+        "forall j :: 0 <= j < i ==> (if IsLowerCase(s[j]) then IsLowerUpperPair(s[j], s'[j]) else if IsUpperCase(s[j]) then IsUpperLowerPair(s[j], s'[j]) else s'[j] == s[j])"
+      ],
+      "survivors": [
+        "0 <= i <= |s|",
+        "|s'| == i",
+        "forall j :: 0 <= j < i ==> (if IsLowerCase(s[j]) then IsLowerUpperPair(s[j], s'[j]) else if IsUpperCase(s[j]) then IsUpperLowerPair(s[j], s'[j]) else s'[j] == s[j])"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_145.dfy": {
+      "candidates": [
+        "0 <= i <= a.Length",
+        "minVal <= maxVal",
+        "forall k :: 0 <= k < i ==> minVal <= a[k] <= maxVal",
+        "forall k :: 0 <= k < i ==> minVal <= a[k]",
+        "forall k :: 0 <= k < i ==> a[k] <= maxVal",
+        "forall k, l :: 0 <= k < i && 0 <= l < i ==> a[k] - a[l] <= maxVal - minVal"
+      ],
+      "survivors": [
+        "0 <= i <= a.Length",
+        "minVal <= maxVal",
+        "forall k :: 0 <= k < i ==> minVal <= a[k] <= maxVal",
+        "forall k :: 0 <= k < i ==> minVal <= a[k]",
+        "forall k :: 0 <= k < i ==> a[k] <= maxVal",
+        "forall k, l :: 0 <= k < i && 0 <= l < i ==> a[k] - a[l] <= maxVal - minVal"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-workout_tmp_tmp0abkw6f8_starter_ex12.dfy": {
+      "candidates": [
+        "0 <= max_idx < a.Length",
+        "0 <= i <= a.Length",
+        "forall j :: 0 <= j < i ==> a[max_idx] >= a[j]"
+      ],
+      "survivors": [
+        "0 <= max_idx < a.Length",
+        "0 <= i <= a.Length",
+        "forall j :: 0 <= j < i ==> a[max_idx] >= a[j]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_DoubleArray.dfy": {
+      "candidates": [
+        "0 <= n <= src.Length",
+        "forall i :: 0 <= i < n ==> dst[i] == 2 * src[i]"
+      ],
+      "survivors": [
+        "0 <= n <= src.Length"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_808.dfy": {
+      "candidates": [
+        "0 <= i <= |s|",
+        "!result ==> forall j :: 0 <= j < i ==> s[j] != k",
+        "result ==> exists j :: 0 <= j <= i && s[j] == k"
+      ],
+      "survivors": [
+        "0 <= i <= |s|",
+        "!result ==> forall j :: 0 <= j < i ==> s[j] != k",
+        "result ==> exists j :: 0 <= j <= i && s[j] == k"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_804.dfy": {
+      "candidates": [
+        "result == (exists j :: 0 <= j < i && IsEven(a[j]))",
+        "!result ==> forall j :: 0 <= j < i ==> !IsEven(a[j])",
+        "result ==> (exists j :: 0 <= j < i && IsEven(a[j]))",
+        "(exists j :: 0 <= j < i && IsEven(a[j])) ==> result",
+        "0 <= i <= a.Length"
+      ],
+      "survivors": [
+        "result == (exists j :: 0 <= j < i && IsEven(a[j]))",
+        "!result ==> forall j :: 0 <= j < i ==> !IsEven(a[j])",
+        "result ==> (exists j :: 0 <= j < i && IsEven(a[j]))",
+        "(exists j :: 0 <= j < i && IsEven(a[j])) ==> result",
+        "0 <= i <= a.Length"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_741.dfy": {
+      "candidates": [
+        "result == (forall k :: 0 <= k < i ==> s[k] == firstChar)",
+        "forall k :: 0 <= k < i ==> s[k] == firstChar",
+        "result == (forall k :: 0 <= k < i ==> s[k] == s[0])",
+        "0 <= i <= |s|"
+      ],
+      "survivors": [
+        "result == (forall k :: 0 <= k < i ==> s[k] == firstChar)",
+        "forall k :: 0 <= k < i ==> s[k] == firstChar",
+        "result == (forall k :: 0 <= k < i ==> s[k] == s[0])",
+        "0 <= i <= |s|"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_Cubes.dfy": {
+      "candidates": [
+        "0 <= n <= a.Length",
+        "forall j :: 0 <= j < n ==> a[j] == j*j*j",
+        "c == n*n*n",
+        "k == 3*n*n + 3*n + 1",
+        "m == 6*n + 6"
+      ],
+      "survivors": [
+        "0 <= n <= a.Length",
+        "forall j :: 0 <= j < n ==> a[j] == j*j*j",
+        "c == n*n*n",
+        "k == 3*n*n + 3*n + 1",
+        "m == 6*n + 6"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_max_array.dfy": {
+      "candidates": [
+        "0 <= index <= a.Length",
+        "forall k :: 0 <= k < index ==> m >= a[k]",
+        "exists k :: 0 <= k < index && m == a[k]"
+      ],
+      "survivors": [
+        "0 <= index <= a.Length",
+        "forall k :: 0 <= k < index ==> m >= a[k]",
+        "exists k :: 0 <= k < index && m == a[k]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_rotate.dfy": {
+      "candidates": [
+        "i==0 || (i>0 && b[i-1]==a[(i-1+offset)%a.Length])",
+        "forall j :: 0 <= j < i ==> b[j] == a[(j+offset)%a.Length]",
+        "i <= a.Length",
+        "0 <= i <= a.Length"
+      ],
+      "survivors": [
+        "i==0 || (i>0 && b[i-1]==a[(i-1+offset)%a.Length])",
+        "forall j :: 0 <= j < i ==> b[j] == a[(j+offset)%a.Length]",
+        "i <= a.Length",
+        "0 <= i <= a.Length"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_793.dfy": {
+      "candidates": [
+        "0 <= i <= arr.Length",
+        "pos == -1 || (0 <= pos < i && arr[pos] == elem)",
+        "forall j :: 0 <= j < i && arr[j] == elem ==> j <= pos",
+        "pos == -1 || (pos < i && arr[pos] == elem && (pos == arr.Length - 1 || arr[pos + 1] > elem))",
+        "forall j :: pos < j < i ==> arr[j] != elem"
+      ],
+      "survivors": [
+        "0 <= i <= arr.Length",
+        "pos == -1 || (0 <= pos < i && arr[pos] == elem)",
+        "forall j :: 0 <= j < i && arr[j] == elem ==> j <= pos",
+        "forall j :: pos < j < i ==> arr[j] != elem"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Metodos_Formais_tmp_tmpbez22nnn_Aula_2_ex1.dfy": {
+      "candidates": [
+        "r + m * n == x * y",
+        "m >= 0",
+        "n == y",
+        "r == (x - m) * y"
+      ],
+      "survivors": [
+        "r + m * n == x * y",
+        "m >= 0",
+        "n == y",
+        "r == (x - m) * y"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_618.dfy": {
+      "candidates": [
+        "0 <= i <= |a|",
+        "|result| == i",
+        "forall j :: 0 <= j < i ==> result[j] == a[j] / b[j]",
+        "forall j :: 0 <= j < i ==> result[j] == a[j] / b[j] && |result| == i"
+      ],
+      "survivors": [
+        "0 <= i <= |a|",
+        "|result| == i",
+        "forall j :: 0 <= j < i ==> result[j] == a[j] / b[j]",
+        "forall j :: 0 <= j < i ==> result[j] == a[j] / b[j] && |result| == i"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_624.dfy": {
+      "candidates": [
+        "forall k :: 0 <= k < i ==> (if IsLowerCase(s[k]) then IsLowerUpperPair(s[k], s'[k]) else s'[k] == s[k])",
+        "|s'| == i",
+        "forall k :: 0 <= k < i ==> s'[k] == (if IsLowerCase(s[k]) then ShiftMinus32(s[k]) else s[k])"
+      ],
+      "survivors": [
+        "|s'| == i"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_555.dfy": {
+      "candidates": [
+        "1 <= i <= n+1",
+        "sumNumbers == (i-1)*i/2",
+        "sumCubes == ((i-1)*i/2)*((i-1)*i/2)"
+      ],
+      "survivors": [
+        "1 <= i <= n+1",
+        "sumNumbers == (i-1)*i/2",
+        "sumCubes == ((i-1)*i/2)*((i-1)*i/2)"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_426.dfy": {
+      "candidates": [
+        "forall j :: 0 <= j < i && IsOdd(arr[j]) ==> arr[j] in oddList",
+        "forall x :: x in oddList ==> IsOdd(x) && x in arr[..i]"
+      ],
+      "survivors": [
+        "forall j :: 0 <= j < i && IsOdd(arr[j]) ==> arr[j] in oddList",
+        "forall x :: x in oddList ==> IsOdd(x) && x in arr[..i]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Workshop_tmp_tmp0cu11bdq_Workshop_Answers_Question6.dfy": {
+      "candidates": [
+        "0 <= i <= n",
+        "forall j :: 0 <= j < i ==> a[j] == j",
+        "forall j :: i <= j < n ==> a[j] == 0"
+      ],
+      "survivors": [
+        "0 <= i <= n",
+        "forall j :: 0 <= j < i ==> a[j] == j"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Metodos_Formais_tmp_tmpbez22nnn_Aula_2_ex2.dfy": {
+      "candidates": [
+        "r == Potencia(x, y - e)",
+        "r * Potencia(b, e) == Potencia(x, y)",
+        "r * Potencia(x, e) == Potencia(x, y)"
+      ],
+      "survivors": [
+        "r == Potencia(x, y - e)",
+        "r * Potencia(b, e) == Potencia(x, y)",
+        "r * Potencia(x, e) == Potencia(x, y)"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_424.dfy": {
+      "candidates": [
+        "0 <= i <= |l|",
+        "|rearChars| == i",
+        "forall j :: 0 <= j < i ==> rearChars[j] == l[j][|l[j]| - 1]"
+      ],
+      "survivors": [
+        "0 <= i <= |l|",
+        "|rearChars| == i",
+        "forall j :: 0 <= j < i ==> rearChars[j] == l[j][|l[j]| - 1]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Metodos_Formais_tmp_tmpql2hwcsh_Arrays_somatorioArray.dfy": {
+      "candidates": [
+        "0 <= i <= a.Length",
+        "s == soma(a, i)"
+      ],
+      "survivors": [
+        "0 <= i <= a.Length",
+        "s == soma(a, i)"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_578.dfy": {
+      "candidates": [
+        "|r| == 3 * i",
+        "forall j :: 0 <= j < i ==> r[3*j] == s1[j] && r[3*j+1] == s2[j] && r[3*j+2] == s3[j]"
+      ],
+      "survivors": [
+        "|r| == 3 * i",
+        "forall j :: 0 <= j < i ==> r[3*j] == s1[j] && r[3*j+1] == s2[j] && r[3*j+2] == s3[j]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/TFG_tmp_tmpbvsao41w_Algoritmos Dafny_div_ent_it.dfy": {
+      "candidates": [
+        "0 <= r",
+        "b*c + r == a",
+        "0 <= r < b",
+        "r >= 0",
+        "r >= 0 && b*c + r == a"
+      ],
+      "survivors": [
+        "0 <= r",
+        "b*c + r == a",
+        "r >= 0",
+        "r >= 0 && b*c + r == a"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_803.dfy": {
+      "candidates": [
+        "0 <= i",
+        "forall j: int :: 0 <= j < i ==> j*j < n"
+      ],
+      "survivors": [
+        "0 <= i",
+        "forall j: int :: 0 <= j < i ==> j*j < n"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_790.dfy": {
+      "candidates": [
+        "0 <= i <= |lst|",
+        "result <==> forall j :: 0 <= j < i ==> (IsEven(j) ==> IsEven(lst[j]))",
+        "result ==> forall j :: 0 <= j < i ==> (IsEven(j) ==> IsEven(lst[j]))",
+        "!result ==> (exists j :: 0 <= j < i && IsEven(j) && !IsEven(lst[j]))",
+        "result <==> (forall j :: 0 <= j < i ==> (IsEven(j) ==> IsEven(lst[j])))"
+      ],
+      "survivors": [
+        "0 <= i <= |lst|",
+        "result <==> forall j :: 0 <= j < i ==> (IsEven(j) ==> IsEven(lst[j]))",
+        "result ==> forall j :: 0 <= j < i ==> (IsEven(j) ==> IsEven(lst[j]))",
+        "!result ==> (exists j :: 0 <= j < i && IsEven(j) && !IsEven(lst[j]))",
+        "result <==> (forall j :: 0 <= j < i ==> (IsEven(j) ==> IsEven(lst[j])))"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/laboratory_tmp_tmps8ws6mu2_dafny-tutorial_exercise9.dfy": {
+      "candidates": [
+        "0 <= i <= n",
+        "b == fib(i)",
+        "c == fib(i+1)"
+      ],
+      "survivors": [
+        "0 <= i <= n",
+        "b == fib(i)",
+        "c == fib(i+1)"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_find.dfy": {
+      "candidates": [
+        "0 <= index <= a.Length",
+        "forall i :: 0 <= i < index ==> a[i] != key"
+      ],
+      "survivors": [
+        "0 <= index <= a.Length",
+        "forall i :: 0 <= i < index ==> a[i] != key"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_2.dfy": {
+      "candidates": [
+        "forall x :: x in res ==> InArray(b, x)",
+        "forall j, k :: 0 <= j < k < |res| ==> res[j] != res[k]",
+        "forall x :: x in res ==> exists j :: 0 <= j < i && a[j] == x",
+        "forall x :: x in res ==> InArray(a, x)"
+      ],
+      "survivors": [
+        "forall x :: x in res ==> InArray(b, x)",
+        "forall j, k :: 0 <= j < k < |res| ==> res[j] != res[k]",
+        "forall x :: x in res ==> exists j :: 0 <= j < i && a[j] == x",
+        "forall x :: x in res ==> InArray(a, x)"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_126.dfy": {
+      "candidates": [
+        "sum >= 0",
+        "i <= a + 1",
+        "i <= b + 1",
+        "forall d :: 1 <= d < i && a % d == 0 && b % d == 0 ==> sum >= d",
+        "sum == + forall d :: 1 <= d < i && a % d == 0 && b % d == 0 ? d : 0"
+      ],
+      "survivors": [
+        "sum >= 0",
+        "i <= a + 1",
+        "i <= b + 1",
+        "forall d :: 1 <= d < i && a % d == 0 && b % d == 0 ==> sum >= d",
+        "sum == + forall d :: 1 <= d < i && a % d == 0 && b % d == 0 ? d : 0"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_cal_ans.dfy": {
+      "candidates": [
+        "7*x + y == 191",
+        "y >= 0",
+        "7*x <= 191"
+      ],
+      "survivors": [
+        "7*x + y == 191",
+        "y >= 0",
+        "7*x <= 191"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_41.dfy": {
+      "candidates": [
+        "k + i + j >= 2 * i",
+        "k + i + j >= 2 * n - (n - i)",
+        "j >= i * (i + 1) / 2",
+        "j >= i",
+        "n >= i",
+        "i >= 0",
+        "j >= 0",
+        "k + i + j >= 2 * i + k"
+      ],
+      "survivors": [
+        "k + i + j >= 2 * i",
+        "j >= i * (i + 1) / 2",
+        "j >= i",
+        "n >= i",
+        "i >= 0",
+        "j >= 0",
+        "k + i + j >= 2 * i + k"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_770.dfy": {
+      "candidates": [
+        "i == 2 * k + 1",
+        "sum == k * (2 * k + 1) * (24 * k * k * k - 12 * k * k - 14 * k + 7) / 15",
+        "0 <= k <= n"
+      ],
+      "survivors": [
+        "i == 2 * k + 1",
+        "sum == k * (2 * k + 1) * (24 * k * k * k - 12 * k * k - 14 * k + 7) / 15",
+        "0 <= k <= n"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/MIEIC_mfes_tmp_tmpq3ho7nve_exams_mt2_19_p4.dfy": {
+      "candidates": [
+        "0 <= i <= n",
+        "r == R(i)"
+      ],
+      "survivors": [
+        "0 <= i <= n",
+        "r == R(i)"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Prog-Fun-Solutions_tmp_tmp7_gmnz5f_extra_sum.dfy": {
+      "candidates": [
+        "x == sum(n) - sum(k)",
+        "y * k + x == sum(n) - sum(k-1)"
+      ],
+      "survivors": [
+        "x == sum(n) - sum(k)"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p5.dfy": {
+      "candidates": [
+        "b + a * f(k) == f(n)",
+        "b == f(n) - a * f(k)",
+        "f(n) == b + a * f(k)"
+      ],
+      "survivors": [
+        "b + a * f(k) == f(n)",
+        "b == f(n) - a * f(k)",
+        "f(n) == b + a * f(k)"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/MIEIC_mfes_tmp_tmpq3ho7nve_exams_mt2_19_p5.dfy": {
+      "candidates": [
+        "0 <= i <= j <= a.Length-1",
+        "forall k :: 0 <= k < i ==> a[k] < a[a.Length-1]",
+        "forall k :: i <= k < j ==> a[k] >= a[a.Length-1]",
+        "multiset(a[..]) == multiset(old(a[..]))",
+        "forall k :: j <= k < a.Length-1 ==> a[k] == old(a[k])",
+        "a[a.Length-1] == old(a[a.Length-1])"
+      ],
+      "survivors": [
+        "0 <= i <= j <= a.Length-1",
+        "forall k :: 0 <= k < i ==> a[k] < a[a.Length-1]",
+        "forall k :: i <= k < j ==> a[k] >= a[a.Length-1]",
+        "multiset(a[..]) == multiset(old(a[..]))",
+        "forall k :: j <= k < a.Length-1 ==> a[k] == old(a[k])",
+        "a[a.Length-1] == old(a[a.Length-1])"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_3.dfy": {
+      "candidates": [
+        "2 <= i <= n/2 + 1",
+        "forall k :: 2 <= k < i ==> n % k != 0",
+        "result == false"
+      ],
+      "survivors": [
+        "2 <= i <= n/2 + 1",
+        "forall k :: 2 <= k < i ==> n % k != 0",
+        "result == false"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_457.dfy": {
+      "candidates": [
+        "0 <= i <= |s|",
+        "forall j :: 0 <= j < i ==> |minSublist| <= |s[j]|"
+      ],
+      "survivors": [
+        "0 <= i <= |s|",
+        "forall j :: 0 <= j < i ==> |minSublist| <= |s[j]|"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_Cube.dfy": {
+      "candidates": [
+        "c == i * i * i",
+        "k == 3 * i * i + 3 * i + 1",
+        "m == 6 * i + 6"
+      ],
+      "survivors": [
+        "m == 6 * i + 6"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Software-Verification_tmp_tmpv4ueky2d_Best Time to Buy and Sell Stock_best_time_to_buy_and_sell_stock.dfy": {
+      "candidates": [
+        "0 <= i <= prices.Length",
+        "forall k :: 0 <= k < i ==> min_price <= prices[k]",
+        "forall s, b :: 0 <= s < b < i ==> max_profit >= prices[b] - prices[s]"
+      ],
+      "survivors": [
+        "0 <= i <= prices.Length",
+        "forall k :: 0 <= k < i ==> min_price <= prices[k]",
+        "forall s, b :: 0 <= s < b < i ==> max_profit >= prices[b] - prices[s]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/t1_MF_tmp_tmpi_sqie4j_exemplos_colecoes_arrays_ex4.dfy": {
+      "candidates": [
+        "0 <= i <= a.Length",
+        "s == SomaAte(a, i)"
+      ],
+      "survivors": [
+        "0 <= i <= a.Length",
+        "s == SomaAte(a, i)"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/M2_tmp_tmp2laaavvl_Software Verification_Exercices_Exo7-ComputeSum.dfy": {
+      "candidates": [
+        "0 <= i <= n",
+        "s == Sum(i)"
+      ],
+      "survivors": [
+        "0 <= i <= n",
+        "s == Sum(i)"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-duck_tmp_tmplawbgxjo_p2.dfy": {
+      "candidates": [
+        "0 <= j <= y.Length",
+        "forall i :: 0 <= i < j ==> y[i] == abs(x[i])",
+        "y.Length == x.Length",
+        "forall i :: 0 <= i < j ==> y[i] >= 0",
+        "j >= 0",
+        "forall i :: 0 <= i < j ==> y[i] == (if x[i] < 0 then -x[i] else x[i])"
+      ],
+      "survivors": [
+        "0 <= j <= y.Length",
+        "forall i :: 0 <= i < j ==> y[i] == abs(x[i])",
+        "y.Length == x.Length",
+        "forall i :: 0 <= i < j ==> y[i] >= 0",
+        "j >= 0",
+        "forall i :: 0 <= i < j ==> y[i] == (if x[i] < 0 then -x[i] else x[i])"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_290.dfy": {
+      "candidates": [
+        "forall j :: 0 <= j < i ==> |lists[j]| <= |maxList|",
+        "0 <= i <= |lists|"
+      ],
+      "survivors": [
+        "forall j :: 0 <= j < i ==> |lists[j]| <= |maxList|",
+        "0 <= i <= |lists|"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_62.dfy": {
+      "candidates": [
+        "1 <= i <= s.Length",
+        "forall j :: 0 <= j < i ==> min <= s[j]",
+        "exists j :: 0 <= j < i && min == s[j]"
+      ],
+      "survivors": [
+        "1 <= i <= s.Length",
+        "forall j :: 0 <= j < i ==> min <= s[j]",
+        "exists j :: 0 <= j < i && min == s[j]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_array_sum.dfy": {
+      "candidates": [
+        "0 <= i <= a.Length",
+        "forall j :: 0 <= j < i ==> c[j] == a[j] + b[j]",
+        "c.Length == a.Length"
+      ],
+      "survivors": [
+        "0 <= i <= a.Length",
+        "forall j :: 0 <= j < i ==> c[j] == a[j] + b[j]",
+        "c.Length == a.Length"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/M2_tmp_tmp2laaavvl_Software Verification_Exercices_Exo4-CountAndReturn.dfy": {
+      "candidates": [
+        "0 <= i <= n",
+        "i == n ==> r == n",
+        "i == n ==> r == i"
+      ],
+      "survivors": [
+        "0 <= i <= n"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p6.dfy": {
+      "candidates": [
+        "0 <= k <= n",
+        "a == fSum(k)",
+        "x == f(k)",
+        "y == f(k+1)"
+      ],
+      "survivors": [
+        "0 <= k <= n",
+        "a == fSum(k)",
+        "x == f(k)",
+        "y == f(k+1)"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_755.dfy": {
+      "candidates": [
+        "2 <= i <= s.Length",
+        "0 <= minIndex < i",
+        "0 <= secondMinIndex < i",
+        "minIndex != secondMinIndex",
+        "forall k :: 0 <= k < i ==> s[minIndex] <= s[k]",
+        "forall k :: 0 <= k < i && k != minIndex ==> s[secondMinIndex] <= s[k]"
+      ],
+      "survivors": [
+        "2 <= i <= s.Length",
+        "0 <= minIndex < i",
+        "0 <= secondMinIndex < i",
+        "minIndex != secondMinIndex",
+        "forall k :: 0 <= k < i ==> s[minIndex] <= s[k]",
+        "forall k :: 0 <= k < i && k != minIndex ==> s[secondMinIndex] <= s[k]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_double_array_elements.dfy": {
+      "candidates": [
+        "forall k :: 0 <= k < i ==> s[k] == 2 * old(s[k])",
+        "forall k :: i <= k < s.Length ==> s[k] == old(s[k])",
+        "0 <= i <= s.Length"
+      ],
+      "survivors": [
+        "forall k :: i <= k < s.Length ==> s[k] == old(s[k])",
+        "0 <= i <= s.Length"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/t1_MF_tmp_tmpi_sqie4j_exemplos_colecoes_arrays_ex5.dfy": {
+      "candidates": [
+        "0 <= r <= a.Length",
+        "forall i :: 0 <= i < r ==> a[i] != x"
+      ],
+      "survivors": [
+        "0 <= r <= a.Length",
+        "forall i :: 0 <= i < r ==> a[i] != x"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_454.dfy": {
+      "candidates": [
+        "0 <= i <= |s|",
+        "result ==> (exists j :: 0 <= j < i && (s[j] == 'z' || s[j] == 'Z'))",
+        "!result ==> (forall j :: 0 <= j < i ==> (s[j] != 'z' && s[j] != 'Z'))"
+      ],
+      "survivors": [
+        "0 <= i <= |s|",
+        "result ==> (exists j :: 0 <= j < i && (s[j] == 'z' || s[j] == 'Z'))",
+        "!result ==> (forall j :: 0 <= j < i ==> (s[j] != 'z' && s[j] != 'Z'))"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_simpleMultiplication.dfy": {
+      "candidates": [
+        "0 <= a <= y",
+        "z == x * a"
+      ],
+      "survivors": [
+        "0 <= a <= y",
+        "z == x * a"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-language-server_tmp_tmpkir0kenl_Test_tutorial_maximum.dfy": {
+      "candidates": [
+        "0 <= idx <= |values|",
+        "forall i :: 0 <= i < idx ==> values[i] <= max",
+        "exists j :: 0 <= j < idx && max == values[j]"
+      ],
+      "survivors": [
+        "0 <= idx <= |values|",
+        "forall i :: 0 <= i < idx ==> values[i] <= max"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_251.dfy": {
+      "candidates": [
+        "0 <= i <= |s|",
+        "|v| == 2 * i",
+        "forall j :: 0 <= j < i ==> v[2*j] == x && v[2*j+1] == s[j]"
+      ],
+      "survivors": [
+        "0 <= i <= |s|",
+        "|v| == 2 * i",
+        "forall j :: 0 <= j < i ==> v[2*j] == x && v[2*j+1] == s[j]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_732.dfy": {
+      "candidates": [
+        "0 <= i <= |s|",
+        "|s'| == i",
+        "forall j :: 0 <= j < i ==> (IsSpaceCommaDot(s[j]) ==> s'[j] == ':') && (!IsSpaceCommaDot(s[j]) ==> s'[j] == s[j])"
+      ],
+      "survivors": [
+        "0 <= i <= |s|",
+        "|s'| == i",
+        "forall j :: 0 <= j < i ==> (IsSpaceCommaDot(s[j]) ==> s'[j] == ':') && (!IsSpaceCommaDot(s[j]) ==> s'[j] == s[j])"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_demo.dfy": {
+      "candidates": [
+        "0 <= i <= j <= k <= a.Length",
+        "forall x | 0 <= x < i :: a[x] < 0",
+        "forall x | j <= x < k :: a[x] == 0",
+        "forall x | k <= x < a.Length :: a[x] > 0"
+      ],
+      "survivors": [
+        "0 <= i <= j <= k <= a.Length",
+        "forall x | 0 <= x < i :: a[x] < 0",
+        "forall x | j <= x < k :: a[x] == 0",
+        "forall x | k <= x < a.Length :: a[x] > 0"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_445.dfy": {
+      "candidates": [
+        "0 <= i <= |a|",
+        "|result| == i",
+        "forall j :: 0 <= j < i ==> result[j] == a[j] * b[j]"
+      ],
+      "survivors": [
+        "0 <= i <= |a|",
+        "|result| == i",
+        "forall j :: 0 <= j < i ==> result[j] == a[j] * b[j]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/FormalMethods_tmp_tmpvda2r3_o_dafny_Invariants_ex1.dfy": {
+      "candidates": [
+        "m * n + r == x * y",
+        "r == (x - m) * n",
+        "m <= x"
+      ],
+      "survivors": [
+        "m * n + r == x * y",
+        "r == (x - m) * n",
+        "m <= x"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/se2011_tmp_tmp71eb82zt_ass1_ex4.dfy": {
+      "candidates": [
+        "z + x * y == x * x",
+        "0 <= y",
+        "y <= x",
+        "z == x * (x - y)"
+      ],
+      "survivors": [
+        "z + x * y == x * x",
+        "0 <= y",
+        "y <= x",
+        "z == x * (x - y)"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_447.dfy": {
+      "candidates": [
+        "0 <= i <= a.Length",
+        "forall j :: 0 <= j < i ==> cubedArray[j] == a[j] * a[j] * a[j]"
+      ],
+      "survivors": [
+        "0 <= i <= a.Length",
+        "forall j :: 0 <= j < i ==> cubedArray[j] == a[j] * a[j] * a[j]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_SumArray.dfy": {
+      "candidates": [
+        "0 <= i <= arr.Length",
+        "sum == Sum(arr, i)",
+        "sum == Sum(arr, i) && 0 <= i <= arr.Length"
+      ],
+      "survivors": [
+        "0 <= i <= arr.Length",
+        "sum == Sum(arr, i)",
+        "sum == Sum(arr, i) && 0 <= i <= arr.Length"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Generated_Code_Mult.dfy": {
+      "candidates": [
+        "x == (a - y) * b",
+        "x + y * b == a * b",
+        "y >= 0",
+        "y <= a"
+      ],
+      "survivors": [
+        "x == (a - y) * b",
+        "x + y * b == a * b",
+        "y >= 0",
+        "y <= a"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_70.dfy": {
+      "candidates": [
+        "forall k :: 1 <= k < i ==> |sequences[k]| == firstLength",
+        "result ==> forall k :: 1 <= k < i ==> |sequences[k]| == firstLength"
+      ],
+      "survivors": [
+        "forall k :: 1 <= k < i ==> |sequences[k]| == firstLength",
+        "result ==> forall k :: 1 <= k < i ==> |sequences[k]| == firstLength"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Generated_Code_Minimum.dfy": {
+      "candidates": [
+        "0 <= n <= a.Length",
+        "exists i :: 0 <= i < a.Length && m == a[i]",
+        "forall i :: 0 <= i < n ==> m <= a[i]"
+      ],
+      "survivors": [
+        "0 <= n <= a.Length",
+        "exists i :: 0 <= i < a.Length && m == a[i]",
+        "forall i :: 0 <= i < n ==> m <= a[i]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Software-Verification_tmp_tmpv4ueky2d_Valid Palindrome_valid_panlindrome.dfy": {
+      "candidates": [
+        "i < length / 2",
+        "0 <= i <= length / 2",
+        "0 <= i",
+        "forall j :: 0 <= j < i ==> s[j] == s[length - 1 - j]"
+      ],
+      "survivors": [
+        "0 <= i <= length / 2",
+        "0 <= i",
+        "forall j :: 0 <= j < i ==> s[j] == s[length - 1 - j]"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_ComputePower.dfy": {
+      "candidates": [
+        "y == Power(x)",
+        "0 <= x <= N"
+      ],
+      "survivors": [
+        "y == Power(x)",
+        "0 <= x <= N"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Metodos_Formais_tmp_tmpql2hwcsh_Invariantes_potencia.dfy": {
+      "candidates": [
+        "Potencia(b, e) * r == Potencia(x, y)",
+        "b == x",
+        "0 <= e"
+      ],
+      "survivors": [
+        "Potencia(b, e) * r == Potencia(x, y)",
+        "b == x",
+        "0 <= e"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/FormalMethods_tmp_tmpvda2r3_o_dafny_Invariants_ex2.dfy": {
+      "candidates": [
+        "r * Potencia(b, e) == Potencia(x, y)",
+        "b == x",
+        "e >= 0",
+        "r * Potencia(x, e) == Potencia(x, y)",
+        "r * Potencia(b, e) == Potencia(x, y) && b == x"
+      ],
+      "survivors": [
+        "r * Potencia(b, e) == Potencia(x, y)",
+        "b == x",
+        "e >= 0",
+        "r * Potencia(x, e) == Potencia(x, y)",
+        "r * Potencia(b, e) == Potencia(x, y) && b == x"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-exercise_tmp_tmpouftptir_maxArray.dfy": {
+      "candidates": [
+        "0 <= i <= a.Length",
+        "forall j :: 0 <= j < i ==> a[j] <= max",
+        "exists j :: 0 <= j < i && a[j] == max"
+      ],
+      "survivors": [
+        "0 <= i <= a.Length",
+        "forall j :: 0 <= j < i ==> a[j] <= max",
+        "exists j :: 0 <= j < i && a[j] == max"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_37.dfy": {
+      "candidates": [
+        "0 <= m < n",
+        "0 <= x <= n"
+      ],
+      "survivors": [
+        "0 <= m < n",
+        "0 <= x <= n"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_is_palindrome.dfy": {
+      "candidates": [
+        "0 <= i <= j+1 <= |x|",
+        "forall k :: 0 <= k < i ==> x[k] == x[|x|-1-k]",
+        "result == true"
+      ],
+      "survivors": [
+        "0 <= i <= j+1 <= |x|",
+        "forall k :: 0 <= k < i ==> x[k] == x[|x|-1-k]",
+        "result == true"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_lc-remove-element.dfy": {
+      "candidates": [
+        "forall j :: 0 <= j < i ==> nums[j] != val",
+        "forall j :: end < j < nums.Length ==> nums[j] == val",
+        "i <= end + 1",
+        "0 <= i <= end+1 <= nums.Length",
+        "i <= nums.Length"
+      ],
+      "survivors": [
+        "forall j :: 0 <= j < i ==> nums[j] != val",
+        "forall j :: end < j < nums.Length ==> nums[j] == val",
+        "i <= end + 1",
+        "0 <= i <= end+1 <= nums.Length",
+        "i <= nums.Length"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/DafnyProjects_tmp_tmp2acw_s4s_partitionOddEven.dfy": {
+      "candidates": [
+        "0 <= i <= j+1 <= a.Length",
+        "forall k :: 0 <= k < i ==> odd(a[k])",
+        "forall k :: j < k < a.Length ==> even(a[k])",
+        "multiset(a[..]) == multiset(old(a[..]))",
+        "0 <= i <= a.Length",
+        "-1 <= j < a.Length",
+        "i <= j+1"
+      ],
+      "survivors": [
+        "0 <= i <= j+1 <= a.Length",
+        "forall k :: 0 <= k < i ==> odd(a[k])",
+        "forall k :: j < k < a.Length ==> even(a[k])",
+        "multiset(a[..]) == multiset(old(a[..]))",
+        "0 <= i <= a.Length",
+        "-1 <= j < a.Length",
+        "i <= j+1"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny_tmp_tmp49a6ihvk_m4.dfy": {
+      "candidates": [
+        "0 <= r <= w <= b <= a.Length",
+        "forall i :: 0 <= i < r ==> a[i] == Red",
+        "forall i :: r <= i < w ==> a[i] == White",
+        "forall i :: b <= i < a.Length ==> a[i] == Blue",
+        "multiset(a[..]) == multiset(old(a[..]))"
+      ],
+      "survivors": [
+        "0 <= r <= w <= b <= a.Length",
+        "forall i :: 0 <= i < r ==> a[i] == Red",
+        "forall i :: r <= i < w ==> a[i] == White",
+        "forall i :: b <= i < a.Length ==> a[i] == Blue",
+        "multiset(a[..]) == multiset(old(a[..]))"
+      ],
+      "verified": true
+    }
+  }
+}

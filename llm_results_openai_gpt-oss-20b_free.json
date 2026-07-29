@@ -1,0 +1,175 @@
+{
+  "model": "openai/gpt-oss-20b:free",
+  "results": {
+    "solved": [
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_113.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Exercise3_Increment_Array.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/t1_MF_tmp_tmpi_sqie4j_exemplos_introducao_ex4.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Metodos_Formais_tmp_tmpql2hwcsh_Invariantes_fatorial2.dfy"
+    ],
+    "failed": [
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_477.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Compilation.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_reverse.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-language-server_tmp_tmpkir0kenl_Test_allocated1_dafny0_fun-with-slices.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/DafnyPrograms_tmp_tmp74_f9k_c_invertarray.dfy",
+      "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_set_to_seq.dfy"
+    ],
+    "no_candidates": [],
+    "error": []
+  },
+  "details": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_477.dfy": {
+      "candidates": [
+        "0 <= i <= |s|",
+        "|s'| == i",
+        "forall j :: 0 <= j < i ==> (if IsUpperCase(s[j]) then IsUpperLowerPair(s[j], s'[j]) else s'[j] == s[j])",
+        "forall j :: 0 <= j < |s'| ==> (s'[j] as int) < 128",
+        "i == 0 ==> |s'| == 0",
+        "i > 0 ==> |s'| > 0",
+        "forall j :: 0 <= j < i ==> IsUpperCase(s[j]) || (!IsUpperCase(s[j]) && s'[j] == s[j])",
+        "forall j :: 0 <= j < i ==> IsUpperUpper?_generation: (IsUpperCase(s[j]) ==> IsUpperLowerPair(s[j], s'[j]))"
+      ],
+      "survivors": [
+        "0 <= i <= |s|",
+        "|s'| == i",
+        "i == 0 ==> |s'| == 0",
+        "i > 0 ==> |s'| > 0",
+        "forall j :: 0 <= j < i ==> IsUpperUpper?_generation: (IsUpperCase(s[j]) ==> IsUpperLowerPair(s[j], s'[j]))"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Compilation.dfy": {
+      "candidates": [
+        "y >= 0",
+        "y <= 10",
+        "forall a :: f(a) == a + (55 - y * (y + 1) / 2)"
+      ],
+      "survivors": [
+        "y >= 0",
+        "y <= 10",
+        "forall a :: f(a) == a + (55 - y * (y + 1) / 2)"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_113.dfy": {
+      "candidates": [
+        "0 <= i <= |s|",
+        "result ==> forall j :: 0 <= j < i ==> IsDigit(s[j])",
+        "!result ==> exists j :: 0 <= j <= i && !IsDigit(s[j])"
+      ],
+      "survivors": [
+        "0 <= i <= |s|",
+        "result ==> forall j :: 0 <= j < i ==> IsDigit(s[j])",
+        "!result ==> exists j :: 0 <= j <= i && !IsDigit(s[j])"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_reverse.dfy": {
+      "candidates": [
+        "0 <= i <= a.Length / 2",
+        "forall drops :: 0 <= drops < i sona ==> a[drops] == old(a[a.Length-1-drops])",
+        "forall drops :: a.Length - i <= drops < a.Length ==> a[drops] == old(a[a.Length-1-drops])",
+        "forall drops :: i <= drops < a.Length - i ==> a[drops] == old(a[drops])"
+      ],
+      "survivors": [
+        "0 <= i <= a.Length / 2",
+        "forall drops :: 0 <= drops < i sona ==> a[drops] == old(a[a.Length-1-drops])",
+        "forall drops :: i <= drops < a.Length - i ==> a[drops] == old(a[drops])"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Exercise3_Increment_Array.dfy": {
+      "candidates": [
+        "0 <= j <= a.Length",
+        "forall i :: 0 <= i < j ==> a[i] == old(a[i]) + 1",
+        "forall i :: j <= i < a.Length ==> a[i] == old(a[i])"
+      ],
+      "survivors": [
+        "0 <= j <= a.Length",
+        "forall i :: 0 <= i < j ==> a[i] == old(a[i]) + 1",
+        "forall i :: j <= i < a.Length ==> a[i] == old(a[i])"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-language-server_tmp_tmpkir0kenl_Test_allocated1_dafny0_fun-with-slices.dfy": {
+      "candidates": [
+        "i <= index + |s|",
+        "i >= index",
+        "a[..] == old(a[..index]) + s[..i - index] + old(a[i..])",
+        "a.Length == old(a.Length)"
+      ],
+      "survivors": [
+        "i <= index + |s|",
+        "i >= index",
+        "a[..] == old(a[..index]) + s[..i - index] + old(a[i..])",
+        "a.Length == old(a.Length)"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/DafnyPrograms_tmp_tmp74_f9k_c_invertarray.dfy": {
+      "candidates": [
+        "index <= a.Length / 2",
+        "forall i :: 0 <= i < a.Length ==> (i < index || i >= a.Length - index) ==> a[i] == old(a[a.Length-.x-1-i])",
+        "forall i :: 0 <= i < index ==> a[i] == old(a[a.Length-1-i])",
+        "forall i :: a.Length - index <= i < a.Length ==> a[i] == old(a[a.Length-1-i])",
+        "index >= 0"
+      ],
+      "survivors": [
+        "index <= a.Length / 2",
+        "forall i :: 0 <= i < a.Length ==> (i < index || i >= a.Length - index) ==> a[i] == old(a[a.Length-.x-1-i])",
+        "index >= 0"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/t1_MF_tmp_tmpi_sqie4j_exemplos_introducao_ex4.dfy": {
+      "candidates": [
+        "i <= n",
+        "r == Fat(i)"
+      ],
+      "survivors": [
+        "i <= n",
+        "r == Fat(i)"
+      ],
+      "verified": true
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_set_to_seq.dfy": {
+      "candidates": [
+        "s == left \u222a set(xs)",
+        "|xs| \u043e\u0431\u043d\u043e\u0432 |left| == |s|",
+        "multiset(s) == multiset(xs) ++ multiset(left)",
+        "forall y :: y in left ==> y \u2209 set(xs)",
+        "s == set(xs) \u222a left",
+        "|left| > 0 <==> left != {}",
+        "forall y :: y in set(xs) ==> y \u2208 s \u2227 y \u2209 left",
+        "forall y :: y in left ==> y \u2208 s \u2227 y \u2209 set(xs)"
+      ],
+      "survivors": [
+        "s == left \u222a set(xs)",
+        "|xs| \u043e\u0431\u043d\u043e\u0432 |left| == |s|",
+        "multiset(s) == multiset(xs) ++ multiset(left)",
+        "forall y :: y in left ==> y \u2209 set(xs)",
+        "s == set(xs) \u222a left",
+        "|left| > 0 <==> left != {}",
+        "forall y :: y in set(xs) ==> y \u2208 s \u2227 y \u2209 left",
+        "forall y :: y in left ==> y \u2208 s \u2227 y \u2209 set(xs)"
+      ],
+      "verified": false
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Metodos_Formais_tmp_tmpql2hwcsh_Invariantes_fatorial2.dfy": {
+      "candidates": [
+        "f == Fat(i-1)",
+        "i <= n + 1",
+        "1 <= i",
+        "f >= 1"
+      ],
+      "survivors": [
+        "f == Fat(i-1)",
+        "i <= n + 1",
+        "1 <= i",
+        "f >= 1"
+      ],
+      "verified": true
+    }
+  }
+}

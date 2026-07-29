@@ -16,7 +16,7 @@ client = OpenAI(
 )
 
 # Development model (free, churn-tolerant). For final runs, pin a paid version.
-DEFAULT_MODEL = "openai/gpt-oss-20b:free"
+DEFAULT_MODEL = "deepseek/deepseek-v4-flash"
 
 PROMPT_TEMPLATE = """You are helping verify a Dafny program. The loop invariant\
 (s) have been removed. Propose candidate loop invariants that would let Dafny\
@@ -36,16 +36,36 @@ Program:
 Candidate invariants (one per line):"""
 
 
-def get_llm_candidates(stripped_source, model=DEFAULT_MODEL, n_candidates_hint=8):
-    """Ask the model for candidate invariants; return a clean list of clauses."""
-    prompt = PROMPT_TEMPLATE.format(program=stripped_source)
-    resp = client.chat.completions.create(
-        model=model,
-        messages=[{"role": "user", "content": prompt}],
-    )
-    raw = resp.choices[0].message.content
-    return parse_candidates(raw)
+import time
 
+def get_llm_candidates(stripped_source, model=DEFAULT_MODEL, max_retries=4):
+    """Ask the model for candidate invariants, with retry/backoff for rate
+    limits and transient failures. Returns a list of clauses (possibly empty)."""
+    prompt = PROMPT_TEMPLATE.format(program=stripped_source)
+    for attempt in range(max_retries):
+        try:
+            resp = client.chat.completions.create(
+                model=model,
+                messages=[{"role": "user", "content": prompt}],
+                timeout=60,
+            )
+            raw = resp.choices[0].message.content or ""
+            return parse_candidates(raw)
+        except Exception as e:
+            msg = str(e).lower()
+            # Rate limit or transient server error: back off and retry.
+            if "rate" in msg or "429" in msg or "timeout" in msg or "503" in msg:
+                wait = 2 ** attempt * 3   # 3s, 6s, 12s, 24s
+                print(f"    [retry {attempt+1}/{max_retries} after {wait}s: {e}]")
+                time.sleep(wait)
+                continue
+            # Other error: one retry then give up on this program.
+            if attempt == 0:
+                time.sleep(3)
+                continue
+            print(f"    [giving up: {e}]")
+            return []
+    return []
 
 def parse_candidates(raw_text):
     """Extract invariant expressions from the model's free-text reply.
