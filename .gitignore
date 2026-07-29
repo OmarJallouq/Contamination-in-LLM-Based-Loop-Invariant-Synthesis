@@ -12,4 +12,5 @@ tmp*.dfy
 
 # Editor noise
 .DS_Store
-.vscode/
+.vscode/.env
+*.key
