@@ -48,3 +48,6 @@ def result_path(experiment, model, seed=None, limit=None):
 
 def gt_to_stripped(gt_path):
     return gt_path.replace("/ground_truth/", "/hints_removed/")[:-4] + "_no_hints.dfy"
+
+
+RUNS = 2   # runs per condition; bump to 3 for final reportable runs
