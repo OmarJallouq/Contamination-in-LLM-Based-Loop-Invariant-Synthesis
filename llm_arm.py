@@ -38,7 +38,7 @@ Candidate invariants (one per line):"""
 
 import time
 
-def get_llm_candidates(stripped_source, model=DEFAULT_MODEL, max_retries=4):
+def get_llm_candidates(stripped_source, model=DEFAULT_MODEL, max_retries=4, temperature=0.0):
     """Ask the model for candidate invariants, with retry/backoff for rate
     limits and transient failures. Returns a list of clauses (possibly empty)."""
     prompt = PROMPT_TEMPLATE.format(program=stripped_source)
@@ -47,6 +47,7 @@ def get_llm_candidates(stripped_source, model=DEFAULT_MODEL, max_retries=4):
             resp = client.chat.completions.create(
                 model=model,
                 messages=[{"role": "user", "content": prompt}],
+                temperature=temperature,
                 timeout=60,
             )
             raw = resp.choices[0].message.content or ""
