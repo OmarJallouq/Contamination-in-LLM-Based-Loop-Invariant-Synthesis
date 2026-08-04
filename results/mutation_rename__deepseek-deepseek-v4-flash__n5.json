@@ -1,0 +1,66 @@
+{
+  "model": "deepseek/deepseek-v4-flash",
+  "mutation": "rename",
+  "runs": 2,
+  "results": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_113.dfy": {
+      "status": "ok",
+      "effect": "robust",
+      "orig": "yes",
+      "mutated": "yes",
+      "meta": {
+        "s": "v0"
+      }
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/t1_MF_tmp_tmpi_sqie4j_exemplos_introducao_ex4.dfy": {
+      "status": "ok",
+      "effect": "robust",
+      "orig": "yes",
+      "mutated": "yes",
+      "meta": {
+        "i": "v0",
+        "n": "v1",
+        "r": "v2"
+      }
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Exercise3_Increment_Array.dfy": {
+      "status": "ok",
+      "effect": "flaky",
+      "orig": "yes",
+      "mutated": "flaky",
+      "meta": {
+        "j": "v0",
+        "a": "v1"
+      }
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_477.dfy": {
+      "status": "ok",
+      "effect": "robust",
+      "orig": "yes",
+      "mutated": "yes",
+      "meta": {
+        "s": "v0",
+        "v": "v1"
+      }
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Metodos_Formais_tmp_tmpql2hwcsh_Invariantes_fatorial2.dfy": {
+      "status": "ok",
+      "effect": "robust",
+      "orig": "yes",
+      "mutated": "yes",
+      "meta": {
+        "f": "v0",
+        "i": "v1",
+        "n": "v2"
+      }
+    }
+  },
+  "statuses": {
+    "ok": 5
+  },
+  "effects": {
+    "robust": 4,
+    "flaky": 1
+  },
+  "n_valid": 5
+}
