@@ -9,10 +9,13 @@ baseline uses. The LLM is just another candidate SOURCE; everything downstream
 import os
 import re
 from openai import OpenAI
+import httpx
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
     api_key=os.environ["OPENROUTER_API_KEY"],
+    timeout=httpx.Timeout(60.0, connect=10.0, read=60.0, write=10.0, pool=10.0),
+    max_retries=0,   # we do our own retry logic
 )
 
 # Development model (free, churn-tolerant). For final runs, pin a paid version.
@@ -38,7 +41,7 @@ Candidate invariants (one per line):"""
 
 import time
 
-def get_llm_candidates(stripped_source, model=DEFAULT_MODEL, max_retries=4, temperature=0.0):
+def get_llm_candidates(stripped_source, model=DEFAULT_MODEL, max_retries=4, temperature=0.0, seed=42):
     """Ask the model for candidate invariants, with retry/backoff for rate
     limits and transient failures. Returns a list of clauses (possibly empty)."""
     prompt = PROMPT_TEMPLATE.format(program=stripped_source)
@@ -48,7 +51,7 @@ def get_llm_candidates(stripped_source, model=DEFAULT_MODEL, max_retries=4, temp
                 model=model,
                 messages=[{"role": "user", "content": prompt}],
                 temperature=temperature,
-                timeout=60,
+                seed=seed,
             )
             raw = resp.choices[0].message.content or ""
             return parse_candidates(raw)
