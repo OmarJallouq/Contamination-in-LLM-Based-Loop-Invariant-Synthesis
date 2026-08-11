@@ -21,6 +21,14 @@ from injector import extract_invariants
 from config import DAFNY_TIMEOUT, result_path, gt_to_stripped, MODELS, RUNS
 
 from mutate import for_to_while, rename_variables, perturb_constants
+
+# Programs excluded: trigger Z3 quantifier-instantiation blowup (verification
+# does not terminate in tractable time — a solver limitation, not a mutation
+# artifact). Documented exclusion, analogous to ceiling exclusions.
+SKIP_PROGRAMS = {
+    "dafny-synthesis_task_id_793.dfy",
+}
+
 MUTATIONS = {
     "rename":  rename_variables,
     "constants": perturb_constants,
@@ -62,13 +70,16 @@ def process_one(args):
     except Exception as e:
         return (gt_path, {"status": "error", "error": str(e)})
 
-def run(model, mutation_name, limit=None, runs=RUNS, max_workers=4, per_program_timeout=300):
+def run(model, mutation_name, limit=None, runs=RUNS, max_workers=4, per_program_timeout=120):
     tag = model.replace("/", "_").replace(":", "_")
-    llm_results = json.load(open(f"llm_results_{tag}.json"))
-    solved = [p.strip() for p in llm_results["results"]["solved"]]
+    # Fixed program set for ALL models (the 188 scoped, ceiling-verifiable set),
+    # so cross-model comparison holds the test constant. Not each model's own
+    # solved set — that would confound comparison with different test sets.
+    ceiling = json.load(open("ceiling_results.json"))
+    solved = [p.strip() for p in ceiling["verified"]
+              if os.path.basename(p.strip()) not in SKIP_PROGRAMS]
     if limit:
         solved = solved[:limit]
-
     path = result_path(f"mutation_{mutation_name}", model, limit=limit)
 
     # --- Resume: load any already-completed results and skip them. ---
@@ -103,7 +114,7 @@ def run(model, mutation_name, limit=None, runs=RUNS, max_workers=4, per_program_
                 detail = {"status": "error", "error": f"worker: {e}"}
             results[gt_path] = detail
             done += 1
-            if done % 5 == 0:
+            if done % 1 == 0:
                 flush()
                 print(f"  {done}/{len(solved)}  ({time.time()-start:.0f}s)")
 

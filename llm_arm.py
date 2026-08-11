@@ -14,8 +14,8 @@ import httpx
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
     api_key=os.environ["OPENROUTER_API_KEY"],
-    timeout=httpx.Timeout(60.0, connect=10.0, read=60.0, write=10.0, pool=10.0),
-    max_retries=0,   # we do our own retry logic
+    timeout=httpx.Timeout(90.0, connect=8.0),
+    max_retries=2,
 )
 
 # Development model (free, churn-tolerant). For final runs, pin a paid version.

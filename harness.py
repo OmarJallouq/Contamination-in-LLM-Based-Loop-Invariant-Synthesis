@@ -93,37 +93,86 @@ def verify_candidate_at_loop(stripped_source, loop_index, candidate, timeout=60)
 
 
 def houdini_at_loop(stripped_source, loop_index, candidates, timeout=30):
-    """Two-phase Houdini on a real program at a loop.
-
-    Phase 1: inject the entire pool at once. If it verifies, done (1 call).
-    Phase 2: otherwise, isolation-filter to the sound subset, then verify that.
+    """Two-phase Houdini with malformed-clause filtering.
+    Phase 0: drop clauses that cause resolution/type errors in isolation
+             (e.g. `a != null` on non-nullable arrays) so they can't poison the set.
+    Phase 1: inject the whole clean pool; if it verifies, done.
+    Phase 2: isolation-filter to sound clauses, verify that subset.
     """
     uniq = list(dict.fromkeys(c.strip() for c in candidates if c.strip()))
     if not uniq:
         return {"invariant": [], "verified": False, "raw": "", "survivors": []}
 
-    # Phase 1: whole pool at once. Cheap short-circuit when the pool is sound.
-    whole = verify_candidate_at_loop(stripped_source, loop_index, uniq, timeout)
-    if whole["verified"]:
-        return {"invariant": uniq, "verified": True,
-                "raw": whole["raw"], "survivors": uniq}
+    def is_malformed(raw):
+        # Resolution/type errors mean the clause is ill-formed, not just unsound.
+        markers = [
+            "must have a common supertype",
+            "must be of a numeric type",
+            "must have comparable types",
+            "reference type",             # `!= null` on non-nullable
+            "unresolved identifier",
+            "unresolved",
+            "resolution/type error",
+            "arguments must",
+            "type of the",
+            "expected",                    # some parse errors
+        ]
+        return any(m in raw for m in markers)
 
-    # Phase 2: isolation sweep to find sound clauses.
+    # Phase 0: drop malformed clauses (resolution/type errors in isolation).
+    clean = []
+    for c in uniq:
+        v = verify_candidate_at_loop(stripped_source, loop_index, c, timeout)
+        if v["verified"]:
+            clean.append(c)                       # well-formed and sound alone
+        elif not is_malformed(v["raw"]):
+            clean.append(c)                       # well-formed but unsound alone: keep for Houdini
+        # else: malformed -> drop it entirely
+    if not clean:
+        return {"invariant": [], "verified": False, "raw": "", "survivors": []}
+
+    # Phase 1: whole clean pool at once.
+    whole = verify_candidate_at_loop(stripped_source, loop_index, clean, timeout)
+    if whole["verified"]:
+        return {"invariant": clean, "verified": True,
+                "raw": whole["raw"], "survivors": clean}
+
+    # Phase 2: isolation sweep for sound clauses (from the clean set).
     def survives(clause):
         v = verify_candidate_at_loop(stripped_source, loop_index, clause, timeout)
         raw = v["raw"]
+        if is_malformed(raw):
+            return False
         inv_failed = "loop invariant" in raw and (
             "could not be proved to be maintained" in raw
             or "could not be proved on entry" in raw
         )
         return not inv_failed
 
-    survivors = [c for c in uniq if survives(c)]
-    if survivors:
-        v = verify_candidate_at_loop(stripped_source, loop_index, survivors, timeout)
-        return {"invariant": survivors, "verified": v["verified"],
+    survivors = [c for c in clean if survives(c)]
+    if not survivors:
+        return {"invariant": [], "verified": False, "raw": "", "survivors": []}
+
+    v = verify_candidate_at_loop(stripped_source, loop_index, survivors, timeout)
+    if v["verified"]:
+        return {"invariant": survivors, "verified": True,
                 "raw": v["raw"], "survivors": survivors}
-    return {"invariant": [], "verified": False, "raw": "", "survivors": []}
+
+    # Phase 3 (Bug 2 fix): survivor set still failed. Greedily drop clauses that
+    # break the combined proof, retry until it verifies or empties.
+    working = list(survivors)
+    for _ in range(len(survivors)):
+        v = verify_candidate_at_loop(stripped_source, loop_index, working, timeout)
+        if v["verified"]:
+            return {"invariant": working, "verified": True,
+                    "raw": v["raw"], "survivors": working}
+        if is_malformed(v["raw"]) and len(working) > 1:
+            # Remove the last-added clause and retry (crude but effective).
+            working = working[:-1]
+        else:
+            break
+
+    return {"invariant": survivors, "verified": False, "raw": v["raw"], "survivors": survivors}
 
 def houdini(stripped_path, candidates, timeout=60):
     """

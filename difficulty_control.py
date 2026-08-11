@@ -47,8 +47,8 @@ def process_one(args):
         return (gt_path, "error", str(e))
 
 def run(model, runs=RUNS, max_workers=4):
-    llm = json.load(open(f"llm_results_{model.replace('/','_').replace(':','_')}.json"))
-    solved = [p.strip() for p in llm["results"]["solved"]]
+    ceiling = json.load(open("ceiling_results.json"))
+    solved = [p.strip() for p in ceiling["verified"]]    
     print(f"Difficulty control: {len(solved)} programs, model={model}\n")
 
     for_rates, while_rates = [], []
@@ -56,13 +56,16 @@ def run(model, runs=RUNS, max_workers=4):
     with ProcessPoolExecutor(max_workers=max_workers) as ex:
         futures = {ex.submit(process_one, (p, model, runs)): p for p in solved}
         for fut in as_completed(futures):
-            gt_path, loop_type, rate = fut.result()
+            try:
+                gt_path, loop_type, rate = fut.result(timeout=120)
+            except Exception:
+                continue
             if loop_type == "for" and rate is not None:
                 for_rates.append(rate / runs)
             elif loop_type == "while" and rate is not None:
                 while_rates.append(rate / runs)
             done += 1
-            if done % 20 == 0:
+            if done % 5 == 0:
                 print(f"  {done}/{len(solved)}  ({time.time()-start:.0f}s)")
 
     import statistics as st

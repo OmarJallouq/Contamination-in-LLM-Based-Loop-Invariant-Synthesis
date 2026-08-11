@@ -1,12 +1,12 @@
 {
-  "model": "deepseek/deepseek-v4-flash",
+  "model": "google/gemini-2.5-flash",
   "mutation": "structure",
   "runs": 3,
   "results": {
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Compilation.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_reverse.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_reverse.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Compilation.dfy": {
       "status": "not_applicable"
     },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Exercise3_Increment_Array.dfy": {
@@ -30,7 +30,7 @@
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Metodos_Formais_tmp_tmpbez22nnn_Aula_4_ex1.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_69.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_113.dfy": {
       "status": "ok",
       "orig_solves": 3,
       "mutated_solves": 3,
@@ -38,7 +38,7 @@
       "meta": {
         "var": "i",
         "start": "0",
-        "end": "|list|"
+        "end": "|s|"
       }
     },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny_examples_tmp_tmp8qotd4ez_leetcode_0070-climbing-stairs.dfy": {
@@ -47,15 +47,15 @@
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Generated_Code_LinearSearch.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_728.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_69.dfy": {
       "status": "ok",
-      "orig_solves": 2,
-      "mutated_solves": 3,
+      "orig_solves": 3,
+      "mutated_solves": 1,
       "runs": 3,
       "meta": {
         "var": "i",
         "start": "0",
-        "end": "|a|"
+        "end": "|list|"
       }
     },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_310.dfy": {
@@ -69,7 +69,7 @@
         "end": "|s|"
       }
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_477.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_728.dfy": {
       "status": "ok",
       "orig_solves": 3,
       "mutated_solves": 0,
@@ -77,7 +77,7 @@
       "meta": {
         "var": "i",
         "start": "0",
-        "end": "|s|"
+        "end": "|a|"
       }
     },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/laboratory_tmp_tmps8ws6mu2_dafny-tutorial_exercise12.dfy": {
@@ -92,10 +92,10 @@
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny-experiences_tmp_tmp150sm9qy_dafny_started_tutorial_dafny_tutorial_array.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_113.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_477.dfy": {
       "status": "ok",
       "orig_solves": 3,
-      "mutated_solves": 3,
+      "mutated_solves": 0,
       "runs": 3,
       "meta": {
         "var": "i",
@@ -118,24 +118,10 @@
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_BinarySearch.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_460.dfy": {
-      "status": "ok",
-      "orig_solves": 3,
-      "mutated_solves": 2,
-      "runs": 3,
-      "meta": {
-        "var": "i",
-        "start": "0",
-        "end": "|lst|"
-      }
-    },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_273.dfy": {
-      "status": "not_applicable"
-    },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_8.dfy": {
       "status": "ok",
       "orig_solves": 3,
-      "mutated_solves": 2,
+      "mutated_solves": 3,
       "runs": 3,
       "meta": {
         "var": "i",
@@ -143,10 +129,24 @@
         "end": "a.Length"
       }
     },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_273.dfy": {
+      "status": "not_applicable"
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_267.dfy": {
+      "status": "ok",
+      "orig_solves": 3,
+      "mutated_solves": 3,
+      "runs": 3,
+      "meta": {
+        "var": "k",
+        "start": "0",
+        "end": "n"
+      }
+    },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_474.dfy": {
       "status": "ok",
       "orig_solves": 3,
-      "mutated_solves": 2,
+      "mutated_solves": 0,
       "runs": 3,
       "meta": {
         "var": "i",
@@ -157,15 +157,15 @@
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/SENG2011_tmp_tmpgk5jq85q_exam_ex3.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_307.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_460.dfy": {
       "status": "ok",
       "orig_solves": 3,
-      "mutated_solves": 1,
+      "mutated_solves": 0,
       "runs": 3,
       "meta": {
         "var": "i",
         "start": "0",
-        "end": "|s|"
+        "end": "|lst|"
       }
     },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/MIEIC_mfes_tmp_tmpq3ho7nve_exams_appeal_20_p4.dfy": {
@@ -174,14 +174,14 @@
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny-Exercises_tmp_tmpjm75muf__Session4Exercises_ExerciseContained.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_95.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_307.dfy": {
       "status": "ok",
       "orig_solves": 3,
-      "mutated_solves": 2,
+      "mutated_solves": 3,
       "runs": 3,
       "meta": {
         "var": "i",
-        "start": "1",
+        "start": "0",
         "end": "|s|"
       }
     },
@@ -200,15 +200,15 @@
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/703FinalProject_tmp_tmpr_10rn4z_gaussian.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/DafnyProjects_tmp_tmp2acw_s4s_findMax.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_longest_prefix.dfy": {
       "status": "ok",
       "orig_solves": 3,
-      "mutated_solves": 1,
+      "mutated_solves": 3,
       "runs": 3,
       "meta": {
-        "var": "i",
-        "start": "1",
-        "end": "a.Length"
+        "var": "idx",
+        "start": "0",
+        "end": "minLength"
       }
     },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_replace.dfy": {
@@ -223,15 +223,15 @@
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_261.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_267.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/DafnyProjects_tmp_tmp2acw_s4s_findMax.dfy": {
       "status": "ok",
       "orig_solves": 3,
       "mutated_solves": 3,
       "runs": 3,
       "meta": {
-        "var": "k",
-        "start": "0",
-        "end": "n"
+        "var": "i",
+        "start": "1",
+        "end": "a.Length"
       }
     },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_match.dfy": {
@@ -240,15 +240,15 @@
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/M2_tmp_tmp2laaavvl_Software Verification_Exercices_Exo9-Carre.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_472.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_95.dfy": {
       "status": "ok",
-      "orig_solves": 3,
-      "mutated_solves": 3,
+      "orig_solves": 1,
+      "mutated_solves": 0,
       "runs": 3,
       "meta": {
         "var": "i",
-        "start": "0",
-        "end": "a.Length - 1"
+        "start": "1",
+        "end": "|s|"
       }
     },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/metodosFormais_tmp_tmp4q2kmya4_T1-MetodosFormais_examples_ex1.dfy": {
@@ -305,21 +305,21 @@
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_error_data_completion_07.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_249.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_414.dfy": {
       "status": "ok",
-      "orig_solves": 2,
-      "mutated_solves": 0,
+      "orig_solves": 3,
+      "mutated_solves": 3,
       "runs": 3,
       "meta": {
         "var": "i",
         "start": "0",
-        "end": "a.Length"
+        "end": "|seq1|"
       }
     },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_canyon_search.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_414.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_775.dfy": {
       "status": "ok",
       "orig_solves": 3,
       "mutated_solves": 0,
@@ -327,7 +327,7 @@
       "meta": {
         "var": "i",
         "start": "0",
-        "end": "|seq1|"
+        "end": "a.Length"
       }
     },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-exercise_tmp_tmpouftptir_firstE.dfy": {
@@ -339,15 +339,15 @@
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_remove_front.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_629.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_472.dfy": {
       "status": "ok",
       "orig_solves": 3,
-      "mutated_solves": 2,
+      "mutated_solves": 3,
       "runs": 3,
       "meta": {
         "var": "i",
         "start": "0",
-        "end": "arr.Length"
+        "end": "a.Length - 1"
       }
     },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_all_digits.dfy": {
@@ -376,40 +376,15 @@
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-exercise_tmp_tmpouftptir_countNeg.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_longest_prefix.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_629.dfy": {
       "status": "ok",
-      "orig_solves": 3,
-      "mutated_solves": 3,
-      "runs": 3,
-      "meta": {
-        "var": "idx",
-        "start": "0",
-        "end": "minLength"
-      }
-    },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_775.dfy": {
-      "status": "ok",
-      "orig_solves": 3,
-      "mutated_solves": 1,
+      "orig_solves": 0,
+      "mutated_solves": 0,
       "runs": 3,
       "meta": {
         "var": "i",
         "start": "0",
-        "end": "a.Length"
-      }
-    },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_binary_search.dfy": {
-      "status": "not_applicable"
-    },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_567.dfy": {
-      "status": "ok",
-      "orig_solves": 3,
-      "mutated_solves": 3,
-      "runs": 3,
-      "meta": {
-        "var": "i",
-        "start": "0",
-        "end": "a.Length - 1"
+        "end": "arr.Length"
       }
     },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_599.dfy": {
@@ -423,10 +398,24 @@
         "end": "n + 1"
       }
     },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_binary_search.dfy": {
+      "status": "not_applicable"
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_412.dfy": {
+      "status": "ok",
+      "orig_solves": 0,
+      "mutated_solves": 0,
+      "runs": 3,
+      "meta": {
+        "var": "i",
+        "start": "0",
+        "end": "arr.Length"
+      }
+    },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/metodosFormais_tmp_tmp4q2kmya4_T1-MetodosFormais_examples_somatoriov2.dfy": {
       "status": "ok",
-      "orig_solves": 2,
-      "mutated_solves": 1,
+      "orig_solves": 3,
+      "mutated_solves": 0,
       "runs": 3,
       "meta": {
         "var": "i",
@@ -434,7 +423,18 @@
         "end": "a.Length"
       }
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_18.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_567.dfy": {
+      "status": "ok",
+      "orig_solves": 3,
+      "mutated_solves": 1,
+      "runs": 3,
+      "meta": {
+        "var": "i",
+        "start": "0",
+        "end": "a.Length - 1"
+      }
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_759.dfy": {
       "status": "ok",
       "orig_solves": 3,
       "mutated_solves": 3,
@@ -442,7 +442,7 @@
       "meta": {
         "var": "i",
         "start": "0",
-        "end": "|s1|"
+        "end": "|s|"
       }
     },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_605.dfy": {
@@ -466,35 +466,35 @@
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_a3_search_findPositionOfIndex.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_770.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_18.dfy": {
       "status": "ok",
       "orig_solves": 3,
-      "mutated_solves": 3,
-      "runs": 3,
-      "meta": {
-        "var": "k",
-        "start": "0",
-        "end": "n"
-      }
-    },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_412.dfy": {
-      "status": "ok",
-      "orig_solves": 2,
       "mutated_solves": 0,
       "runs": 3,
       "meta": {
         "var": "i",
         "start": "0",
-        "end": "arr.Length"
+        "end": "|s1|"
+      }
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_808.dfy": {
+      "status": "ok",
+      "orig_solves": 3,
+      "mutated_solves": 1,
+      "runs": 3,
+      "meta": {
+        "var": "i",
+        "start": "0",
+        "end": "|s|"
       }
     },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/SENG2011_tmp_tmpgk5jq85q_flex_ex5.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_759.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_565.dfy": {
       "status": "ok",
       "orig_solves": 3,
-      "mutated_solves": 3,
+      "mutated_solves": 2,
       "runs": 3,
       "meta": {
         "var": "i",
@@ -514,15 +514,15 @@
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-exercise_tmp_tmpouftptir_prac1_ex2.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_565.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_809.dfy": {
       "status": "ok",
       "orig_solves": 3,
-      "mutated_solves": 3,
+      "mutated_solves": 0,
       "runs": 3,
       "meta": {
         "var": "i",
         "start": "0",
-        "end": "|s|"
+        "end": "|a|"
       }
     },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_array_append.dfy": {
@@ -531,32 +531,10 @@
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/t1_MF_tmp_tmpi_sqie4j_exemplos_colecoes_sequences_ex3.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_161.dfy": {
-      "status": "ok",
-      "orig_solves": 3,
-      "mutated_solves": 2,
-      "runs": 3,
-      "meta": {
-        "var": "i",
-        "start": "0",
-        "end": "a.Length"
-      }
-    },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_808.dfy": {
-      "status": "ok",
-      "orig_solves": 3,
-      "mutated_solves": 1,
-      "runs": 3,
-      "meta": {
-        "var": "i",
-        "start": "0",
-        "end": "|s|"
-      }
-    },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_145.dfy": {
       "status": "ok",
-      "orig_solves": 2,
-      "mutated_solves": 1,
+      "orig_solves": 0,
+      "mutated_solves": 0,
       "runs": 3,
       "meta": {
         "var": "i",
@@ -564,21 +542,29 @@
         "end": "a.Length"
       }
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_809.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_623.dfy": {
       "status": "ok",
       "orig_solves": 3,
-      "mutated_solves": 2,
+      "mutated_solves": 3,
       "runs": 3,
       "meta": {
         "var": "i",
         "start": "0",
-        "end": "|a|"
+        "end": "|l|"
       }
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-exercise_tmp_tmpouftptir_prac4_ex2.dfy": {
-      "status": "not_applicable"
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_804.dfy": {
+      "status": "ok",
+      "orig_solves": 2,
+      "mutated_solves": 0,
+      "runs": 3,
+      "meta": {
+        "var": "i",
+        "start": "0",
+        "end": "a.Length"
+      }
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_623.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_743.dfy": {
       "status": "ok",
       "orig_solves": 3,
       "mutated_solves": 0,
@@ -589,24 +575,38 @@
         "end": "|l|"
       }
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_DoubleArray.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-exercise_tmp_tmpouftptir_prac4_ex2.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_743.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_770.dfy": {
       "status": "ok",
       "orig_solves": 0,
       "mutated_solves": 3,
       "runs": 3,
       "meta": {
+        "var": "k",
+        "start": "0",
+        "end": "n"
+      }
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_DoubleArray.dfy": {
+      "status": "not_applicable"
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_554.dfy": {
+      "status": "ok",
+      "orig_solves": 0,
+      "mutated_solves": 0,
+      "runs": 3,
+      "meta": {
         "var": "i",
         "start": "0",
-        "end": "|l|"
+        "end": "arr.Length"
       }
     },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_436.dfy": {
       "status": "ok",
-      "orig_solves": 3,
-      "mutated_solves": 3,
+      "orig_solves": 0,
+      "mutated_solves": 0,
       "runs": 3,
       "meta": {
         "var": "i",
@@ -620,21 +620,32 @@
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Metodos_Formais_tmp_tmpql2hwcsh_Invariantes_fibonacci.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_555.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_230.dfy": {
       "status": "ok",
-      "orig_solves": 1,
+      "orig_solves": 3,
+      "mutated_solves": 0,
+      "runs": 3,
+      "meta": {
+        "var": "i",
+        "start": "0",
+        "end": "|s|"
+      }
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_557.dfy": {
+      "status": "ok",
+      "orig_solves": 3,
       "mutated_solves": 3,
       "runs": 3,
       "meta": {
         "var": "i",
-        "start": "1",
-        "end": "n + 1"
+        "start": "0",
+        "end": "|s|"
       }
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_804.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_249.dfy": {
       "status": "ok",
-      "orig_solves": 3,
-      "mutated_solves": 2,
+      "orig_solves": 0,
+      "mutated_solves": 3,
       "runs": 3,
       "meta": {
         "var": "i",
@@ -642,37 +653,26 @@
         "end": "a.Length"
       }
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_557.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_741.dfy": {
       "status": "ok",
       "orig_solves": 3,
-      "mutated_solves": 1,
+      "mutated_solves": 0,
       "runs": 3,
       "meta": {
         "var": "i",
-        "start": "0",
+        "start": "1",
         "end": "|s|"
       }
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_554.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_755.dfy": {
       "status": "ok",
-      "orig_solves": 2,
-      "mutated_solves": 3,
+      "orig_solves": 0,
+      "mutated_solves": 0,
       "runs": 3,
       "meta": {
         "var": "i",
-        "start": "0",
-        "end": "arr.Length"
-      }
-    },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_230.dfy": {
-      "status": "ok",
-      "orig_solves": 1,
-      "mutated_solves": 1,
-      "runs": 3,
-      "meta": {
-        "var": "i",
-        "start": "0",
-        "end": "|s|"
+        "start": "2",
+        "end": "s.Length"
       }
     },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-workout_tmp_tmp0abkw6f8_starter_ex12.dfy": {
@@ -699,21 +699,10 @@
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_803.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_755.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_624.dfy": {
       "status": "ok",
       "orig_solves": 3,
       "mutated_solves": 0,
-      "runs": 3,
-      "meta": {
-        "var": "i",
-        "start": "2",
-        "end": "s.Length"
-      }
-    },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_624.dfy": {
-      "status": "ok",
-      "orig_solves": 2,
-      "mutated_solves": 2,
       "runs": 3,
       "meta": {
         "var": "i",
@@ -723,49 +712,13 @@
     },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_618.dfy": {
       "status": "ok",
-      "orig_solves": 2,
-      "mutated_solves": 2,
+      "orig_solves": 3,
+      "mutated_solves": 0,
       "runs": 3,
       "meta": {
         "var": "i",
         "start": "0",
         "end": "|a|"
-      }
-    },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_741.dfy": {
-      "status": "ok",
-      "orig_solves": 3,
-      "mutated_solves": 3,
-      "runs": 3,
-      "meta": {
-        "var": "i",
-        "start": "1",
-        "end": "|s|"
-      }
-    },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_424.dfy": {
-      "status": "ok",
-      "orig_solves": 3,
-      "mutated_solves": 3,
-      "runs": 3,
-      "meta": {
-        "var": "i",
-        "start": "0",
-        "end": "|l|"
-      }
-    },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Metodos_Formais_tmp_tmpbez22nnn_Aula_2_ex2.dfy": {
-      "status": "not_applicable"
-    },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Metodos_Formais_tmp_tmpql2hwcsh_Arrays_somatorioArray.dfy": {
-      "status": "ok",
-      "orig_solves": 3,
-      "mutated_solves": 2,
-      "runs": 3,
-      "meta": {
-        "var": "i",
-        "start": "0",
-        "end": "a.Length"
       }
     },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_426.dfy": {
@@ -777,6 +730,53 @@
         "var": "i",
         "start": "0",
         "end": "arr.Length"
+      }
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_424.dfy": {
+      "status": "ok",
+      "orig_solves": 3,
+      "mutated_solves": 0,
+      "runs": 3,
+      "meta": {
+        "var": "i",
+        "start": "0",
+        "end": "|l|"
+      }
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Metodos_Formais_tmp_tmpql2hwcsh_Arrays_somatorioArray.dfy": {
+      "status": "ok",
+      "orig_solves": 3,
+      "mutated_solves": 0,
+      "runs": 3,
+      "meta": {
+        "var": "i",
+        "start": "0",
+        "end": "a.Length"
+      }
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Metodos_Formais_tmp_tmpbez22nnn_Aula_2_ex2.dfy": {
+      "status": "not_applicable"
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_578.dfy": {
+      "status": "ok",
+      "orig_solves": 3,
+      "mutated_solves": 0,
+      "runs": 3,
+      "meta": {
+        "var": "i",
+        "start": "0",
+        "end": "|s1|"
+      }
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_790.dfy": {
+      "status": "ok",
+      "orig_solves": 3,
+      "mutated_solves": 0,
+      "runs": 3,
+      "meta": {
+        "var": "i",
+        "start": "0",
+        "end": "|lst|"
       }
     },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-duck_tmp_tmplawbgxjo_p2.dfy": {
@@ -794,15 +794,15 @@
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_126.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_578.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_161.dfy": {
       "status": "ok",
-      "orig_solves": 3,
-      "mutated_solves": 2,
+      "orig_solves": 0,
+      "mutated_solves": 3,
       "runs": 3,
       "meta": {
         "var": "i",
         "start": "0",
-        "end": "|s1|"
+        "end": "a.Length"
       }
     },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_find.dfy": {
@@ -817,15 +817,15 @@
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/MIEIC_mfes_tmp_tmpq3ho7nve_exams_mt2_19_p4.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_790.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_251.dfy": {
       "status": "ok",
       "orig_solves": 3,
-      "mutated_solves": 2,
+      "mutated_solves": 0,
       "runs": 3,
       "meta": {
         "var": "i",
         "start": "0",
-        "end": "|lst|"
+        "end": "|s|"
       }
     },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Prog-Fun-Solutions_tmp_tmp7_gmnz5f_extra_sum.dfy": {
@@ -843,15 +843,15 @@
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny_tmp_tmp49a6ihvk_m4.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_769.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_457.dfy": {
       "status": "ok",
       "orig_solves": 1,
-      "mutated_solves": 2,
+      "mutated_solves": 0,
       "runs": 3,
       "meta": {
         "var": "i",
-        "start": "0",
-        "end": "|a|"
+        "start": "1",
+        "end": "|s|"
       }
     },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_simpleMultiplication.dfy": {
@@ -863,29 +863,29 @@
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/t1_MF_tmp_tmpi_sqie4j_exemplos_colecoes_arrays_ex4.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_251.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_62.dfy": {
+      "status": "ok",
+      "orig_solves": 3,
+      "mutated_solves": 1,
+      "runs": 3,
+      "meta": {
+        "var": "i",
+        "start": "1",
+        "end": "s.Length"
+      }
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/M2_tmp_tmp2laaavvl_Software Verification_Exercices_Exo7-ComputeSum.dfy": {
+      "status": "not_applicable"
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_290.dfy": {
       "status": "ok",
       "orig_solves": 3,
       "mutated_solves": 0,
       "runs": 3,
       "meta": {
         "var": "i",
-        "start": "0",
-        "end": "|s|"
-      }
-    },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/M2_tmp_tmp2laaavvl_Software Verification_Exercices_Exo7-ComputeSum.dfy": {
-      "status": "not_applicable"
-    },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_457.dfy": {
-      "status": "ok",
-      "orig_solves": 1,
-      "mutated_solves": 0,
-      "runs": 3,
-      "meta": {
-        "var": "i",
         "start": "1",
-        "end": "|s|"
+        "end": "|lists|"
       }
     },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Clover_array_sum.dfy": {
@@ -906,29 +906,29 @@
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Generated_Code_Minimum.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_62.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_454.dfy": {
       "status": "ok",
       "orig_solves": 3,
-      "mutated_solves": 1,
+      "mutated_solves": 3,
       "runs": 3,
       "meta": {
         "var": "i",
-        "start": "1",
-        "end": "s.Length"
+        "start": "0",
+        "end": "|s|"
       }
     },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-language-server_tmp_tmpkir0kenl_Test_tutorial_maximum.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_2.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_732.dfy": {
       "status": "ok",
       "orig_solves": 3,
-      "mutated_solves": 1,
+      "mutated_solves": 0,
       "runs": 3,
       "meta": {
         "var": "i",
         "start": "0",
-        "end": "a.Length"
+        "end": "|s|"
       }
     },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/FormalMethods_tmp_tmpvda2r3_o_dafny_Invariants_ex1.dfy": {
@@ -949,15 +949,15 @@
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/DafnyProjects_tmp_tmp2acw_s4s_partitionOddEven.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_732.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_447.dfy": {
       "status": "ok",
-      "orig_solves": 1,
-      "mutated_solves": 1,
+      "orig_solves": 3,
+      "mutated_solves": 3,
       "runs": 3,
       "meta": {
         "var": "i",
         "start": "0",
-        "end": "|s|"
+        "end": "a.Length"
       }
     },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Software-Verification_tmp_tmpv4ueky2d_Valid Palindrome_valid_panlindrome.dfy": {
@@ -972,15 +972,15 @@
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Dafny_Verify_tmp_tmphq7j0row_Generated_Code_Mult.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_454.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_70.dfy": {
       "status": "ok",
       "orig_solves": 3,
-      "mutated_solves": 3,
+      "mutated_solves": 0,
       "runs": 3,
       "meta": {
         "var": "i",
-        "start": "0",
-        "end": "|s|"
+        "start": "1",
+        "end": "|sequences|"
       }
     },
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_lc-remove-element.dfy": {
@@ -995,10 +995,21 @@
     "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-exercise_tmp_tmpouftptir_maxArray.dfy": {
       "status": "not_applicable"
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_447.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_769.dfy": {
       "status": "ok",
-      "orig_solves": 2,
-      "mutated_solves": 1,
+      "orig_solves": 3,
+      "mutated_solves": 0,
+      "runs": 3,
+      "meta": {
+        "var": "i",
+        "start": "0",
+        "end": "|a|"
+      }
+    },
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_2.dfy": {
+      "status": "ok",
+      "orig_solves": 3,
+      "mutated_solves": 0,
       "runs": 3,
       "meta": {
         "var": "i",
@@ -1006,26 +1017,15 @@
         "end": "a.Length"
       }
     },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_70.dfy": {
+    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_555.dfy": {
       "status": "ok",
-      "orig_solves": 3,
-      "mutated_solves": 2,
-      "runs": 3,
-      "meta": {
-        "var": "i",
-        "start": "1",
-        "end": "|sequences|"
-      }
-    },
-    "/Users/omarjallouq/Developer/thesis/DafnyBench/DafnyBench/dataset/ground_truth/dafny-synthesis_task_id_290.dfy": {
-      "status": "ok",
-      "orig_solves": 3,
+      "orig_solves": 0,
       "mutated_solves": 0,
       "runs": 3,
       "meta": {
         "var": "i",
         "start": "1",
-        "end": "|lists|"
+        "end": "n + 1"
       }
     }
   },

@@ -13,9 +13,10 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 # Add/remove here; every experiment iterates this list for the final runs.
 # Use pinned/paid model IDs for reproducibility in the final thesis.
 MODELS = [
-    "deepseek/deepseek-v4-flash",     # primary, cheap, fast
-    # "openai/gpt-oss-120b",          # add for capability comparison
-    # "anthropic/claude-sonnet-4.5",  # add a frontier point (costs more)
+    # "deepseek/deepseek-v4-flash",
+    # "openai/gpt-4.1-mini",
+    "openai/gpt-4.1",
+    # "google/gemini-2.5-flash",
 ]
 
 # ---- Corpus ------------------------------------------------------------------
